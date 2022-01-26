@@ -1,40 +1,52 @@
-div {
-  width: 200px;
-  height: 200px;
-  background-color: dodgerblue;
-  border: 10px solid orange;
-  margin: 10px;
-  float: left;
+.container {
+  border: 10px solid red;
+  width: 1200px;
+  margin: auto;
 }
 
-.box1 {
-  border-radius: 20px;
+header {
+  border: 2px solid black;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-.box2 {
-  border-radius: 50px;
+header article {}
+
+.logoPage {
+  border: 2px solid #fff;
+  background-color: rgba(28, 42, 73, 255);
+  height: 600px;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
 }
 
-.box3 {
-  border-radius: 50%;
+.logoPage p {
+  /* margin: auto; */
+  color: white;
+  text-justify: auto;
 }
 
-.box4 {
-  border-radius: 50px 0 50px 0;
+
+
+.about {
+  background-color: white;
+  height: 600px;
+  color: black;
+
+
 }
 
-.box5 {
-  border-radius: 200px 0 0 0;
-}
+.about article {}
 
-.box6 {
-  border-radius: 200px 200px 200px 0;
-}
+.service {}
 
-.box7 {
-  border-radius: 200px 0 200px 0;
-}
+.products {}
 
-.box8 {
-  border-radius: 100px 100px 0 0;
-}
+.news {}
+
+.team {}
+
+.partners {}
+
+footer {}

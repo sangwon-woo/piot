@@ -142,12 +142,15 @@ input[id=trigger]:checked~.sidebar {
   background-color: rgba(28, 42, 73, 255);
   height: 100vh;
   color: #fff;
+  padding-top: 100px;
 }
+
+
 
 .service div:nth-child(1) {
   background-color: rgb(24, 81, 119);
   width: 50%;
-  height: 300px;
+  height: 50%;
   border-radius: 10px;
   margin: auto;
 }
@@ -168,27 +171,97 @@ input[id=trigger]:checked~.sidebar {
   background-color: white;
   height: 100vh;
   color: black;
+  border-bottom: 2px solid #000
+}
+
+.products div:nth-child(1) {
+  font-size: 5em;
+  font-weight: bolder;
+  width: 50%;
+  margin: auto;
+}
+
+.robot-div {
+  background-color: cadetblue;
+  width: 25%;
+}
+
+.robot-img {
+  width: 25vh;
 }
 
 .news {
   background-color: white;
   height: 100vh;
   color: black;
+  border-bottom: 2px solid #000
+}
+
+.news div {
+  font-size: 5em;
+  font-weight: bolder;
+  width: 50%;
+  margin: auto;
 }
 
 .team {
   background-color: white;
   height: 100vh;
   color: black;
+  border-bottom: 2px solid #000;
+}
+
+.team div {
+  font-size: 5em;
+  font-weight: bolder;
+  width: 50%;
+  margin: auto;
+}
+
+.team div:nth-child(2) img {
+  width: 50%;
 }
 
 .partners {
-  height: 100vh;
+  height: 50vh;
   background-color: #fff;
   color: #000;
+}
+
+.partners div:nth-child(1) {
+  font-size: 5em;
+  font-weight: bolder;
+  width: 50%;
+  margin: auto;
+}
+
+.partners-img {
+  margin-left: 25%;
+}
+
+.partners-img img {
+  height: 100px;
+  display: inline-block;
 }
 
 footer {
   background-color: rgba(28, 42, 73, 255);
   height: 300px;
+}
+
+footer article div {
+  width: 50%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+footer article div p {
+  color: #fff;
+  font-weight: bolder;
+  margin: 0;
+  line-height: 1.2em;
+}
+
+footer article div p:nth-child(1) {
+  padding-bottom: 15px;
 }

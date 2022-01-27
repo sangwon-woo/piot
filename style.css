@@ -1,52 +1,142 @@
-.container {
-  border: 10px solid red;
-  width: 1200px;
-  margin: auto;
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
 }
 
 header {
-  border: 2px solid black;
-  text-align: center;
-  box-sizing: border-box;
+  position: absolute;
+  top: 10%;
+  left: 5%;
 }
 
-header article {}
+.nav,
+.contact {
+  display: inline-block;
+  /* box-sizing: border-box; */
+}
+
+.contact p {
+
+  height: 30px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.sidebar {
+  background-color: #000;
+  width: 100vh;
+  height: 100vh;
+  position: fixed;
+  left: -1200px;
+  transition: 0.3s;
+}
+
+input[id=trigger] {
+  display: none;
+}
+
+label[for=trigger] {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+
+}
+
+label[for=trigger] span {
+  width: 50%;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  transition: 0.3s;
+  left: 25%;
+}
+
+label[for=trigger] span:nth-child(1) {
+  top: 33%;
+}
+
+label[for=trigger] span:nth-child(2) {
+  top: 66%;
+}
+
+input[id=trigger]:checked+label[for=trigger] span:nth-child(1) {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+input[id=trigger]:checked+label[for=trigger] span:nth-child(2) {
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
+input[id=trigger]:checked~.sidebar {
+  left: 0;
+
+}
+
 
 .logoPage {
-  border: 2px solid #fff;
   background-color: rgba(28, 42, 73, 255);
-  height: 600px;
+  height: 100vh;
   text-align: center;
-  box-sizing: border-box;
   color: white;
 }
 
-.logoPage p {
-  /* margin: auto; */
+.logoPage article {
+  font-size: 300px;
+  font-weight: bolder;
   color: white;
-  text-justify: auto;
+  line-height: 100vh;
 }
 
 
 
 .about {
   background-color: white;
-  height: 600px;
+  height: 100vh;
   color: black;
 
 
 }
 
-.about article {}
 
-.service {}
+.service {
+  background-color: rgba(28, 42, 73, 255);
+  height: 100vh;
+  color: #fff;
+}
 
-.products {}
+.products {
+  background-color: white;
+  height: 100vh;
+  color: black;
+}
 
-.news {}
+.news {
+  background-color: white;
+  height: 100vh;
+  color: black;
+}
 
-.team {}
+.team {
+  background-color: white;
+  height: 100vh;
+  color: black;
+}
 
-.partners {}
+.partners {
+  height: 100vh;
+  background-color: #fff;
+  color: #000;
+}
 
-footer {}
+footer {
+  background-color: rgba(28, 42, 73, 255);
+  height: 300px;
+}

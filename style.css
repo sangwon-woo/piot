@@ -6,22 +6,37 @@ body {
 }
 
 header {
-  position: absolute;
-  top: 10%;
-  left: 5%;
+  position: fixed;
+  overflow: hidden;
+  margin: 0;
+  width: fit-content;
+  height: 30px;
+  top: 100px;
+  left: 100px;
 }
 
 .nav,
 .contact {
-  display: inline-block;
-  /* box-sizing: border-box; */
+  /* /* display: inline-block; */
+  float: left;
+  font-size: 30px;
+}
+
+.contact {
+  margin: 0 0 0 10px;
 }
 
 .contact p {
-
+  font-size: 0.5em;
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
   height: 30px;
-  box-sizing: border-box;
-  color: #fff;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  /* padding: 5px; */
 }
 
 .sidebar {
@@ -29,8 +44,13 @@ header {
   width: 100vh;
   height: 100vh;
   position: fixed;
-  left: -1200px;
+  /* left: -1200px; */
   transition: 0.3s;
+}
+
+.service {
+  background-color: rgba(28, 42, 73, 255);
+
 }
 
 input[id=trigger] {
@@ -49,43 +69,45 @@ label[for=trigger] {
 }
 
 label[for=trigger] span {
-  width: 50%;
+  width: 40%;
   height: 3px;
   background-color: #000;
   position: absolute;
   transition: 0.3s;
-  left: 25%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 label[for=trigger] span:nth-child(1) {
-  top: 33%;
+  top: 40%;
 }
 
 label[for=trigger] span:nth-child(2) {
-  top: 66%;
+  top: 60%;
 }
 
 input[id=trigger]:checked+label[for=trigger] span:nth-child(1) {
   top: 50%;
-  transform: rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
 input[id=trigger]:checked+label[for=trigger] span:nth-child(2) {
   top: 50%;
-  transform: rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
+
 
 input[id=trigger]:checked~.sidebar {
   left: 0;
-
 }
 
 
 .logoPage {
   background-color: rgba(28, 42, 73, 255);
   height: 100vh;
-  text-align: center;
   color: white;
+  text-align: center;
 }
 
 .logoPage article {
@@ -95,21 +117,51 @@ input[id=trigger]:checked~.sidebar {
   line-height: 100vh;
 }
 
-
-
 .about {
   background-color: white;
   height: 100vh;
   color: black;
-
-
+  justify-content: center;
 }
 
+.about article {
+  padding-top: 100px;
+  width: 80%;
+  margin-left: 25%;
+}
+
+.about article p {
+  color: #000;
+  font-size: 5em;
+  margin: 0;
+  line-height: 1.2em;
+  font-weight: bolder;
+}
 
 .service {
   background-color: rgba(28, 42, 73, 255);
   height: 100vh;
   color: #fff;
+}
+
+.service div:nth-child(1) {
+  background-color: rgb(24, 81, 119);
+  width: 50%;
+  height: 300px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.service div:nth-child(2) {
+  width: 50%;
+  margin: auto;
+}
+
+.service p {
+  font-size: 5em;
+  font-weight: bolder;
+  line-height: 1.2em;
+  margin-top: 0;
 }
 
 .products {

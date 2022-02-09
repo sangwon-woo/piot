@@ -27,7 +27,7 @@
   <link rel="stylesheet" id="style-css" href="asset/css/style.css" type="text/css" media="all">
   <link rel="stylesheet" id="typekit-css" href="asset/css/typekit.css" type="text/css" media="all">
   <script type="text/javascript" src="asset/script/jquery.min.js" id="jquery-js"></script>
-  <script type="text/javascript" src="asset/script/ionicons.js" id="ion-js"></script>
+  <!-- <script type="text/javascript" src="asset/script/ionicons.js" id="ion-js"></script> -->
   <script type="text/javascript" src="asset/script/lottie.min.js" id="lottie-js"></script>
 </head>
 
@@ -275,8 +275,7 @@
               <div class="anim-block anim-block-down"></div>
               <div class="iframe-wrapper" style="padding-top: 56.25%;">
                 <iframe src="https://www.youtube.com/embed/tF4DML7FIWk" width="640" height="360" frameborder="0"
-                  allow="accelerometer; autoplay; fullscreen; picture-in-picture encrypted-media; gyroscope;"
-                  allowfullscreen>
+                  allow="accelerometer; autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope;">
                 </iframe>
               </div>
             </div>
@@ -681,30 +680,6 @@
     <script type="text/javascript">
       var SwellBaseUrl = "https://modwallau.com.au/wp-content/themes/modwall";
     </script>
-    <script type="text/javascript" src="asset/script/wp-polyfill.min.js" id="wp-polyfill-js"></script>
-    <script type="text/javascript" id="wp-polyfill-js-after">
-      ('fetch' in window) || document.write(
-        '<script src="https://modwallau.com.au/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"></scr' +
-        'ipt>');
-      (document.contains) || document.write(
-        '<script src="https://modwallau.com.au/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"></scr' +
-        'ipt>');
-      (window.DOMRect) || document.write(
-        '<script src="https://modwallau.com.au/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"></scr' +
-        'ipt>');
-      (window.URL && window.URL.prototype && window.URLSearchParams) || document.write(
-        '<script src="https://modwallau.com.au/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"></scr' +
-        'ipt>');
-      (window.FormData && window.FormData.prototype.keys) || document.write(
-        '<script src="https://modwallau.com.au/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"></scr' +
-        'ipt>');
-      (Element.prototype.matches && Element.prototype.closest) || document.write(
-        '<script src="https://modwallau.com.au/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"></scr' +
-        'ipt>');
-      ('objectFit' in document.documentElement.style) || document.write(
-        '<script src="https://modwallau.com.au/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"></scr' +
-        'ipt>');
-    </script>
     <script type="text/javascript" src="asset/script/hooks.min.js" id="wp-hooks-js"></script>
     <script type="text/javascript" src="asset/script/i18n.min.js" id="wp-i18n-js"></script>
     <script type="text/javascript" id="wp-i18n-js-after">
@@ -723,8 +698,6 @@
     <script type="text/javascript" src="asset/script/swiper-bundle.min.js" id="swiper-js"></script>
     <script type="text/javascript" src="asset/script/gsap.min.js" id="gsap-js"></script>
     <script type="text/javascript" src="asset/script/ScrollMagic.js" id="scrollmagic-js"></script>
-    <script type="text/javascript" src="asset/script/debug.addIndicators.js" id="scrollmagic_debug-js">
-    </script>
     <script type="text/javascript" src="asset/script/animation.gsap.js" id="scrollmagic_gsap-js"></script>
     <script type="text/javascript" src="asset/script/script.js" id="theme-script-js"></script>
     <script type="text/javascript" src="asset/script/wp-embed.min.js" id="wp-embed-js"></script>
@@ -736,6 +709,7 @@
     <!-- Add Firebase products that you want to use -->
     <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.js"></script>
+    <script type="text/javascript" src="asset/script/custom.js"></script>
 </body>
 
 </html>

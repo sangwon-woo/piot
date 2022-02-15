@@ -13,7 +13,7 @@ var Piot;
      */
 
     init: function () {
-      Piot.initHero();
+      // Piot.initHero();
       Piot.initTabs();
       Piot.initProducts();
       Piot.initScrollMagic();
@@ -25,36 +25,6 @@ var Piot;
       Piot.initScrollToLinks();
       Piot.initResponsiveIframes();
       Piot.initForms();
-    },
-
-    /**
-     * Hero
-     */
-
-    initHero: function () {
-      var lottieWrap = $(".logo-hero-wrap");
-      lottie.loadAnimation({
-        container: lottieWrap[0],
-        renderer: "svg",
-        loop: true,
-        autoplay: true,
-        path: SwellBaseUrl + "/assets/js/data.json",
-      });
-
-      // FAILED EXPERIMENT TO ANIMATE LOGO ON LOAD
-      // var logo = $('#footer .logo-hero');
-      // var runners = $('.section-hero .runners');
-      // var sticks = $('.section-hero .stick');
-      // var distance = logo.height();
-      // var duration = distance;
-      // var stickHeight = $('#footer .stick-top')[0].getBoundingClientRect().height;
-      // var scale = (distance + (stickHeight)) / stickHeight;
-
-      // runners.css({'transform' : 'translateY(165px)'});
-      // sticks.each( function() {
-      // 	var $this = $(this);
-      // 	$this.css({'transform' : 'translateY(0px) scaleY('+ scale +')'});
-      // });
     },
 
     /**

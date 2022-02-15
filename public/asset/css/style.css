@@ -7168,26 +7168,27 @@ aside.nav-wrap .nav-bg-wrap .nav-bg {
 
 aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(1) {
   transition-delay: 300ms;
+  height: 0.2vh;
 }
 
 aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(2) {
   transition-delay: 500ms;
+  height: 0.2vh;
 }
 
 aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(3) {
   transition-delay: 700ms;
+  height: 0.2vh;
 }
 
 aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(4) {
   transition-delay: 900ms;
+  height: 0.2vh;
 }
 
 aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(5) {
   transition-delay: 1100ms;
-}
-
-aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(6) {
-  transition-delay: 1300ms;
+  height: 0.2vh;
 }
 
 .nav-active aside.nav-wrap .nav-bg-wrap .nav-bg {
@@ -7199,27 +7200,29 @@ aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(6) {
 
 .nav-active aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(1) {
   transition-delay: 300ms;
+  height: 0.2vh;
 }
 
 .nav-active aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(2) {
   transition-delay: 500ms;
+  height: 0.2vh;
 }
 
 .nav-active aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(3) {
   transition-delay: 700ms;
+  height: 0.2vh;
 }
 
 .nav-active aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(4) {
   transition-delay: 900ms;
+  height: 0.2vh;
 }
 
 .nav-active aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(5) {
   transition-delay: 1100ms;
+  height: 0.2vh;
 }
 
-.nav-active aside.nav-wrap .nav-bg-wrap .nav-bg:nth-child(6) {
-  transition-delay: 1300ms;
-}
 
 aside.nav-wrap ul.menu {
   margin: 0;
@@ -7431,10 +7434,6 @@ aside.contact-wrap .nav-bg-wrap .nav-bg:nth-child(5) {
   transition-delay: 1100ms;
 }
 
-aside.contact-wrap .nav-bg-wrap .nav-bg:nth-child(6) {
-  transition-delay: 1300ms;
-}
-
 .contact-active aside.contact-wrap .nav-bg-wrap .nav-bg {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -7460,9 +7459,6 @@ aside.contact-wrap .nav-bg-wrap .nav-bg:nth-child(6) {
   transition-delay: 1100ms;
 }
 
-.contact-active aside.contact-wrap .nav-bg-wrap .nav-bg:nth-child(6) {
-  transition-delay: 1300ms;
-}
 
 aside.contact-wrap .contact-content-wrap>* {
   opacity: 0;

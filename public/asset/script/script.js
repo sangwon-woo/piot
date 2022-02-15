@@ -1,4 +1,4 @@
-var Modwall;
+var Piot;
 
 (function ($, window, document, undefined) {
   "use strict";
@@ -7,24 +7,24 @@ var Modwall;
    * Object for namespacing theme functions.
    */
 
-  Modwall = {
+  Piot = {
     /**
      * Initialiser.
      */
 
     init: function () {
-      Modwall.initHero();
-      Modwall.initTabs();
-      Modwall.initProducts();
-      Modwall.initScrollMagic();
-      Modwall.initNav();
-      Modwall.initSwiper();
-      // Modwall.initIsotope();
-      Modwall.initScroll();
-      Modwall.initLoaded();
-      Modwall.initScrollToLinks();
-      Modwall.initResponsiveIframes();
-      Modwall.initForms();
+      Piot.initHero();
+      Piot.initTabs();
+      Piot.initProducts();
+      Piot.initScrollMagic();
+      Piot.initNav();
+      Piot.initSwiper();
+      // Piot.initIsotope();
+      Piot.initScroll();
+      Piot.initLoaded();
+      Piot.initScrollToLinks();
+      Piot.initResponsiveIframes();
+      Piot.initForms();
     },
 
     /**
@@ -554,8 +554,8 @@ var Modwall;
      */
 
     initForms: function () {
-      Modwall.initMaterialFormLabels();
-      Modwall.initWPCF7ButtonReplacement();
+      Piot.initMaterialFormLabels();
+      Piot.initWPCF7ButtonReplacement();
     },
 
     /**
@@ -640,12 +640,12 @@ var Modwall;
    */
 
   $(document).ready(function () {
-    Modwall.init();
+    Piot.init();
   });
 
   $(window).on("resize", function () {
     setTimeout(function () {
-      Modwall.initNav();
+      Piot.initNav();
     }, 2000);
   });
 

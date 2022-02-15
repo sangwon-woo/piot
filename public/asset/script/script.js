@@ -125,9 +125,6 @@ var Modwall;
       var stickHeight =
         $("#footer .stick-top")[0].getBoundingClientRect().height;
       var scale = (distance + stickHeight) / stickHeight;
-      // console.log('Distance: '+distance);
-      // console.log('Scale: '+scale);
-      // console.log('StickHeight: '+stickHeight);
 
       if ($(window).width() > 576) {
         $("#footer").height($("#footer").height() + distance);
@@ -150,7 +147,7 @@ var Modwall;
         // SVG — Top
         var el = document.querySelector("#footer .stick-top");
         var style = window.getComputedStyle(el);
-        var matrix = new WebKitCSSMatrix(style.webkitTransform);
+        var matrix = new WebKitCSSMatrix(style.transform);
         var scene = new ScrollMagic.Scene({
           duration: duration,
           triggerElement: "#footer",
@@ -174,7 +171,7 @@ var Modwall;
         // SVG — Bottom
         var el = document.querySelector("#footer .stick-bottom");
         var style = window.getComputedStyle(el);
-        var matrix = new WebKitCSSMatrix(style.webkitTransform);
+        var matrix = new WebKitCSSMatrix(style.transform);
         var scene = new ScrollMagic.Scene({
           duration: duration,
           triggerElement: "#footer",

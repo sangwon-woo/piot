@@ -207,15 +207,15 @@
           return console.error(e);
         });
     }
-    o.a.use(function (e, t) {
-      if (e.wpcf7 && "feedback" === e.wpcf7.endpoint) {
-        var n = e.wpcf7,
-          r = n.form,
-          c = n.detail;
-        l(r), s(r, "beforesubmit", c), u(r, "submitting");
-      }
-      return t(e);
-    });
+    // o.a.use(function (e, t) {
+    //   if (e.wpcf7 && "feedback" === e.wpcf7.endpoint) {
+    //     var n = e.wpcf7,
+    //       r = n.form,
+    //       c = n.detail;
+    //     l(r), s(r, "beforesubmit", c), u(r, "submitting");
+    //   }
+    //   return t(e);
+    // });
     var l = function (e) {
       (e.wpcf7.parent.querySelector(
         '.screen-reader-response [role="status"]'
@@ -266,55 +266,55 @@
           return console.error(e);
         });
     }
-    o.a.use(function (e, t) {
-      if (e.wpcf7 && "refill" === e.wpcf7.endpoint) {
-        var n = e.wpcf7,
-          r = n.form;
-        n.detail, l(r), u(r, "resetting");
-      }
-      return t(e);
-    });
-    var d = function (e, t) {
-        var n = function (n) {
-          var r = t[n];
-          e
-            .querySelectorAll('input[name="'.concat(n, '"]'))
-            .forEach(function (e) {
-              e.value = "";
-            }),
-            e
-              .querySelectorAll("img.wpcf7-captcha-".concat(n))
-              .forEach(function (e) {
-                e.setAttribute("src", r);
-              });
-          var c = /([0-9]+)\.(png|gif|jpeg)$/.exec(r);
-          c &&
-            e
-              .querySelectorAll(
-                'input[name="_wpcf7_captcha_challenge_'.concat(n, '"]')
-              )
-              .forEach(function (e) {
-                e.value = c[1];
-              });
-        };
-        for (var r in t) n(r);
-      },
-      v = function (e, t) {
-        var n = function (n) {
-          var r = t[n][0],
-            c = t[n][1];
-          e.querySelectorAll(".wpcf7-form-control-wrap.".concat(n)).forEach(
-            function (e) {
-              (e.querySelector('input[name="'.concat(n, '"]')).value = ""),
-                (e.querySelector(".wpcf7-quiz-label").textContent = r),
-                (e.querySelector(
-                  'input[name="_wpcf7_quiz_answer_'.concat(n, '"]')
-                ).value = c);
-            }
-          );
-        };
-        for (var r in t) n(r);
-      };
+    // o.a.use(function (e, t) {
+    //   if (e.wpcf7 && "refill" === e.wpcf7.endpoint) {
+    //     var n = e.wpcf7,
+    //       r = n.form;
+    //     n.detail, l(r), u(r, "resetting");
+    //   }
+    //   return t(e);
+    // });
+    // var d = function (e, t) {
+    //     var n = function (n) {
+    //       var r = t[n];
+    //       e
+    //         .querySelectorAll('input[name="'.concat(n, '"]'))
+    //         .forEach(function (e) {
+    //           e.value = "";
+    //         }),
+    //         e
+    //           .querySelectorAll("img.wpcf7-captcha-".concat(n))
+    //           .forEach(function (e) {
+    //             e.setAttribute("src", r);
+    //           });
+    //       var c = /([0-9]+)\.(png|gif|jpeg)$/.exec(r);
+    //       c &&
+    //         e
+    //           .querySelectorAll(
+    //             'input[name="_wpcf7_captcha_challenge_'.concat(n, '"]')
+    //           )
+    //           .forEach(function (e) {
+    //             e.value = c[1];
+    //           });
+    //     };
+    //     for (var r in t) n(r);
+    //   },
+    // v = function (e, t) {
+    //   var n = function (n) {
+    //     var r = t[n][0],
+    //       c = t[n][1];
+    //     e.querySelectorAll(".wpcf7-form-control-wrap.".concat(n)).forEach(
+    //       function (e) {
+    //         (e.querySelector('input[name="'.concat(n, '"]')).value = ""),
+    //           (e.querySelector(".wpcf7-quiz-label").textContent = r),
+    //           (e.querySelector(
+    //             'input[name="_wpcf7_quiz_answer_'.concat(n, '"]')
+    //           ).value = c);
+    //       }
+    //     );
+    //   };
+    //   for (var r in t) n(r);
+    // };
     function m(e, t) {
       var n = Object.keys(e);
       if (Object.getOwnPropertySymbols) {
@@ -496,33 +496,33 @@
       }
       return n;
     }
-    document.addEventListener("DOMContentLoaded", function (e) {
-      var t;
-      (wpcf7 = (function (e) {
-        for (var t = 1; t < arguments.length; t++) {
-          var n = null != arguments[t] ? arguments[t] : {};
-          t % 2
-            ? w(Object(n), !0).forEach(function (t) {
-                c()(e, t, n[t]);
-              })
-            : Object.getOwnPropertyDescriptors
-            ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
-            : w(Object(n)).forEach(function (t) {
-                Object.defineProperty(
-                  e,
-                  t,
-                  Object.getOwnPropertyDescriptor(n, t)
-                );
-              });
-        }
-        return e;
-      })(
-        { init: b, submit: f, reset: p },
-        null !== (t = wpcf7) && void 0 !== t ? t : {}
-      )),
-        document.querySelectorAll(".wpcf7 > form").forEach(function (e) {
-          return wpcf7.init(e);
-        });
-    });
+    // document.addEventListener("DOMContentLoaded", function (e) {
+    //   var t;
+    //   (wpcf7 = (function (e) {
+    //     for (var t = 1; t < arguments.length; t++) {
+    //       var n = null != arguments[t] ? arguments[t] : {};
+    //       t % 2
+    //         ? w(Object(n), !0).forEach(function (t) {
+    //             c()(e, t, n[t]);
+    //           })
+    //         : Object.getOwnPropertyDescriptors
+    //         ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(n))
+    //         : w(Object(n)).forEach(function (t) {
+    //             Object.defineProperty(
+    //               e,
+    //               t,
+    //               Object.getOwnPropertyDescriptor(n, t)
+    //             );
+    //           });
+    //     }
+    //     return e;
+    //   })(
+    //     { init: b, submit: f, reset: p }
+    //     // null !== (t = wpcf7) && void 0 !== t ? t : {}
+    //   )),
+    //     document.querySelectorAll(".wpcf7 > form").forEach(function (e) {
+    //       return wpcf7.init(e);
+    //     });
+    // });
   },
 ]);

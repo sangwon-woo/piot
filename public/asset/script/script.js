@@ -1,4 +1,4 @@
-var Modwall;
+var Piot;
 
 (function ($, window, document, undefined) {
   "use strict";
@@ -7,54 +7,24 @@ var Modwall;
    * Object for namespacing theme functions.
    */
 
-  Modwall = {
+  Piot = {
     /**
      * Initialiser.
      */
 
     init: function () {
-      Modwall.initHero();
-      Modwall.initTabs();
-      Modwall.initProducts();
-      Modwall.initScrollMagic();
-      Modwall.initNav();
-      Modwall.initSwiper();
-      // Modwall.initIsotope();
-      Modwall.initScroll();
-      Modwall.initLoaded();
-      Modwall.initScrollToLinks();
-      Modwall.initResponsiveIframes();
-      Modwall.initForms();
-    },
-
-    /**
-     * Hero
-     */
-
-    initHero: function () {
-      var lottieWrap = $(".logo-hero-wrap");
-      lottie.loadAnimation({
-        container: lottieWrap[0],
-        renderer: "svg",
-        loop: true,
-        autoplay: true,
-        path: SwellBaseUrl + "/assets/js/data.json",
-      });
-
-      // FAILED EXPERIMENT TO ANIMATE LOGO ON LOAD
-      // var logo = $('#footer .logo-hero');
-      // var runners = $('.section-hero .runners');
-      // var sticks = $('.section-hero .stick');
-      // var distance = logo.height();
-      // var duration = distance;
-      // var stickHeight = $('#footer .stick-top')[0].getBoundingClientRect().height;
-      // var scale = (distance + (stickHeight)) / stickHeight;
-
-      // runners.css({'transform' : 'translateY(165px)'});
-      // sticks.each( function() {
-      // 	var $this = $(this);
-      // 	$this.css({'transform' : 'translateY(0px) scaleY('+ scale +')'});
-      // });
+      // Piot.initHero();
+      Piot.initTabs();
+      Piot.initProducts();
+      Piot.initScrollMagic();
+      Piot.initNav();
+      Piot.initSwiper();
+      // Piot.initIsotope();
+      Piot.initScroll();
+      Piot.initLoaded();
+      Piot.initScrollToLinks();
+      Piot.initResponsiveIframes();
+      Piot.initForms();
     },
 
     /**
@@ -125,9 +95,6 @@ var Modwall;
       var stickHeight =
         $("#footer .stick-top")[0].getBoundingClientRect().height;
       var scale = (distance + stickHeight) / stickHeight;
-      // console.log('Distance: '+distance);
-      // console.log('Scale: '+scale);
-      // console.log('StickHeight: '+stickHeight);
 
       if ($(window).width() > 576) {
         $("#footer").height($("#footer").height() + distance);
@@ -150,7 +117,7 @@ var Modwall;
         // SVG — Top
         var el = document.querySelector("#footer .stick-top");
         var style = window.getComputedStyle(el);
-        var matrix = new WebKitCSSMatrix(style.webkitTransform);
+        var matrix = new WebKitCSSMatrix(style.transform);
         var scene = new ScrollMagic.Scene({
           duration: duration,
           triggerElement: "#footer",
@@ -174,7 +141,7 @@ var Modwall;
         // SVG — Bottom
         var el = document.querySelector("#footer .stick-bottom");
         var style = window.getComputedStyle(el);
-        var matrix = new WebKitCSSMatrix(style.webkitTransform);
+        var matrix = new WebKitCSSMatrix(style.transform);
         var scene = new ScrollMagic.Scene({
           duration: duration,
           triggerElement: "#footer",
@@ -557,8 +524,8 @@ var Modwall;
      */
 
     initForms: function () {
-      Modwall.initMaterialFormLabels();
-      Modwall.initWPCF7ButtonReplacement();
+      Piot.initMaterialFormLabels();
+      Piot.initWPCF7ButtonReplacement();
     },
 
     /**
@@ -643,12 +610,12 @@ var Modwall;
    */
 
   $(document).ready(function () {
-    Modwall.init();
+    Piot.init();
   });
 
   $(window).on("resize", function () {
     setTimeout(function () {
-      Modwall.initNav();
+      Piot.initNav();
     }, 2000);
   });
 

@@ -9,6 +9,31 @@
   margin-left: auto;
 }
 
+.logo {
+  margin: 0;
+  filter: invert(100%) sepia(1%) saturate(37%) hue-rotate(171deg) brightness(115%) contrast(100%);
+}
+
+.logo:nth-child(1) {
+  width: auto;
+  height: 50px;
+}
+
+.logo:nth-child(2) {
+  width: auto;
+  height: 50px;
+}
+
+.logo:nth-child(3) {
+  width: auto;
+  height: 40px;
+}
+
+.logo:nth-child(4) {
+  width: auto;
+  height: 50px;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -6568,15 +6593,15 @@ section {
 }
 
 ::-moz-selection {
-  background: #275493;
+  background: #1b365d;
 }
 
 ::selection {
-  background: #275493;
+  background: #1b365d;
 }
 
 ::-moz-selection {
-  background: #275493;
+  background: #1b365d;
 }
 
 a,
@@ -6607,7 +6632,7 @@ select:active {
 }
 
 .blue {
-  color: #275493;
+  color: #1b365d;
 }
 
 .black {
@@ -6638,7 +6663,7 @@ a,
 .a,
 span,
 li {
-  font-family: "acumin-pro", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 h1:first-child,
@@ -6801,7 +6826,7 @@ a,
 }
 
 .btn.btn-blue {
-  background-color: #275493;
+  background-color: #1b365d;
   color: #eee;
 }
 
@@ -6855,7 +6880,7 @@ a,
 
 .nav-active .btn.nav-toggle,
 .contact-active .btn.nav-toggle {
-  background-color: #275493;
+  background-color: #1b365d;
 }
 
 .btn.nav-toggle::before,
@@ -6885,7 +6910,7 @@ a,
 }
 
 .page-content {
-  background-color: #275493;
+  background-color: #1b365d;
   min-height: 100vh;
 }
 
@@ -6903,7 +6928,7 @@ a,
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #275493;
+  background-color: #1b365d;
   width: 100vw;
   -webkit-transform: translate3d(0, 0, 0) scaleY(0);
   transform: translate3d(0, 0, 0) scaleY(0);
@@ -6919,7 +6944,7 @@ a,
 }
 
 .anim-block.anim-blocks-3-down {
-  background-color: #275493;
+  background-color: #1b365d;
 }
 
 .anim-block.anim-blocks-5 {
@@ -7291,7 +7316,7 @@ aside.nav-wrap ul.menu li a {
 }
 
 aside.nav-wrap ul.menu li a:hover {
-  color: #275493;
+  color: #1b365d;
 }
 
 .nav-active aside.nav-wrap ul.menu li {
@@ -7582,7 +7607,7 @@ aside.contact-wrap form textarea.wpcf7-form-control {
 }
 
 aside.contact-wrap form .wpcf7-not-valid-tip {
-  color: #275493;
+  color: #1b365d;
   font-size: 0.6666666667rem;
 }
 
@@ -7600,7 +7625,7 @@ aside.contact-wrap form .wpcf7-response-output {
 
 #footer {
   padding: 4.1666666667rem 0;
-  background-color: #275493;
+  background-color: #1b365d;
 }
 
 #footer a:hover {
@@ -7655,7 +7680,7 @@ form .wpcf7-response-output.wpcf7-mail-sent-ok {
 }
 
 section.section-blue {
-  background-color: #275493;
+  background-color: #1b365d;
 }
 
 section.section-grey {
@@ -7685,7 +7710,7 @@ section.section-white {
 
 .section-hero {
   height: 100vh;
-  background-color: #275493;
+  background-color: #1b365d;
   padding: 8.8888888889rem 0;
 }
 
@@ -7862,7 +7887,7 @@ section.section-white {
 
 .section-3 h1,
 .section-3 h2 {
-  color: #275493;
+  color: #1b365d;
 }
 
 .product {
@@ -7871,7 +7896,7 @@ section.section-white {
 }
 
 .product h2 {
-  color: #275493;
+  color: #1b365d;
 }
 
 .swiper-container-product {
@@ -7939,7 +7964,7 @@ section.section-white {
   transform: rotate(90deg) translateX(6.9444444444rem) translateY(15px);
   -webkit-transform-origin: right top;
   transform-origin: right top;
-  color: #275493 !important;
+  color: #1b365d !important;
 }
 
 @media (max-width: 575.98px) {
@@ -8004,7 +8029,7 @@ section.section-white {
   top: 50%;
   height: 1px;
   width: 100%;
-  background-color: #275493;
+  background-color: #1b365d;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: left;
@@ -8022,7 +8047,7 @@ section.section-white {
   position: relative;
   height: 1.2222222222rem;
   width: 1.2222222222rem;
-  background-color: #275493;
+  background-color: #1b365d;
   border-radius: 100%;
   border: 3px solid #fff;
 }
@@ -8043,7 +8068,7 @@ section.section-white {
 .timeline-wrap .timeline-element .timeline-subtitle {
   display: block;
   font-size: 0.6666666667rem;
-  color: #275493;
+  color: #1b365d;
 }
 
 .btn-tab-toggle {
@@ -8097,7 +8122,7 @@ section.section-white {
 
 .btn-tab-toggle-link.active .partners h2,
 .btn-tab-toggle-link.active .partners .btn-tab-toggle {
-  color: #275493;
+  color: #1b365d;
 }
 
 .btn-tab-toggle-link.active .partners .btn-tab-toggle {
@@ -8133,5 +8158,5 @@ section.section-white {
 }
 
 a.white:hover {
-  color: #275493;
+  color: #1b365d;
 }

@@ -7144,7 +7144,7 @@ aside.nav-wrap {
   transition: -webkit-transform 0.1s linear 2.1s;
   transition: transform 0.1s linear 2.1s;
   transition: transform 0.1s linear 2.1s, -webkit-transform 0.1s linear 2.1s;
-  z-index: 101;
+  z-index: 999;
 }
 
 @media (max-width: 767.98px) {

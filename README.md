@@ -5,11 +5,11 @@
 ## Brand Color
 
 #1c2a49
-rgba(28,42,73,255)
+rgba(27, 54, 93)
 
 ## Reference
 
-modwallau.com => Base로 개발
+magazino => Base로 개발
 melriver.com/studio
 beez.ba
 

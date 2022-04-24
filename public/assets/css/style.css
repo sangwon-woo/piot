@@ -23,7 +23,13 @@ a {
 ol,
 ul,
 li {
-  list-style: none;
+  list-style-type: none;
+}
+
+/* Logo */
+.piot-logo {
+  width: auto;
+  height: 22px;
 }
 
 /* Navbar */
@@ -298,11 +304,8 @@ img {
   margin: 0;
   padding: 0;
   cursor: pointer;
-  -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
-  -webkit-transition-duration: .15s;
   transition-duration: .15s;
-  -webkit-transition-property: opacity, -webkit-filter;
   transition-property: opacity, -webkit-filter;
   transition-property: opacity, filter;
   transition-property: opacity, filter, -webkit-filter;
@@ -325,7 +328,7 @@ img {
 
 .hamburger .hamburger-inner {
   position: absolute;
-  background-color: #93e2cb;
+  background-color: rgb(27, 54, 93);
   width: 25px;
   height: 2px;
   -webkit-transition-timing-function: ease;
@@ -341,9 +344,7 @@ img {
 }
 
 .hamburger--spin .hamburger-inner {
-  -webkit-transition-timing-function: cubic-bezier(.55, .055, .675, .19);
   transition-timing-function: cubic-bezier(.55, .055, .675, .19);
-  -webkit-transition-duration: .22s;
   transition-duration: .22s;
 }
 
@@ -354,15 +355,10 @@ img {
   content: "";
   width: 25px;
   height: 2px;
-  border-top: 2px solid #93e2cb;
-  -webkit-transition-timing-function: ease;
+  border-top: 2px solid rgb(27, 54, 93);
   transition-timing-function: ease;
-  -webkit-transition-duration: .15s;
   transition-duration: .15s;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   border-radius: 0;
   cursor: pointer;
 }
@@ -480,7 +476,7 @@ section {
 
 .header_hero.hero70def,
 .header_hero.hero70opt1 {
-  height: 70vh;
+  height: 78vh;
 }
 
 .home .header_hero {
@@ -538,12 +534,18 @@ section {
   text-transform: uppercase;
   display: inline-block;
   line-height: 36px;
-  border: 2px solid #93e2cb;
-  -webkit-transition: all .2s ease-in;
+  border: 2px solid rgb(27, 54, 93);
+  background-color: rgb(27, 54, 93);
   transition: all .2s ease-in;
   letter-spacing: 3px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.mag_button:hover {
+  color: rgb(27, 54, 93);
+  background-color: #fff;
+  border: 2px solid #fff
 }
 
 .header_hero__content .mag_button {
@@ -554,9 +556,7 @@ section {
   position: absolute;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: center;
   object-position: center;
   z-index: 8;
 }
@@ -568,7 +568,6 @@ section {
   z-index: 1000;
   margin: 0 auto;
   bottom: 30px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: 19px;
   width: 19px;

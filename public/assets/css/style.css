@@ -443,21 +443,11 @@ section {
   overflow: hidden;
 }
 
-.header-hero.hero70opt1 {
+.header-hero {
   height: 100vh;
 }
 
-.home .header-hero {
-  background-position-y: calc(-30vh + 75px);
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
-  .home .header-hero {
-    background-position-y: bottom;
-  }
-}
-
-.header-hero_filter {
+.header-hero-filter {
   width: 100%;
   height: 100%;
   background: #000;
@@ -470,25 +460,23 @@ section {
   z-index: 9;
 }
 
-.header-hero__content {
+.header-hero-content {
   position: relative;
   z-index: 10;
   margin: 0 auto;
   max-width: 50%;
 }
 
-.header-hero.hero70def .header-hero__content,
-.header-hero.hero70opt1 .header-hero__content {
+.header-hero .header-hero-content {
   max-width: none;
 }
 
-.header-hero.hero100opt1 .header-hero__headline,
-.header-hero.hero70opt1 .header-hero__headline {
+.header-hero .header-hero-headline {
   margin-bottom: 20px !important;
   font-size: 4rem;
 }
 
-.mag_button {
+.mag-button {
   font-size: 12px;
   font-weight: 600;
   font-style: normal;
@@ -518,13 +506,13 @@ section {
   color: rgb(85, 85, 85);
 }
 
-.mag_button:hover {
+.mag-button:hover {
   color: rgb(27, 54, 93);
   background-color: #fff;
   border: 2px solid #fff
 }
 
-.header-hero__content .mag_button {
+.header-hero-content .mag-button {
   margin: 0 14px;
 }
 
@@ -713,7 +701,7 @@ img.wp-post-image {
   padding: 0 55px;
 }
 
-.mag_button {
+.mag-button {
   font-size: 12px;
   font-weight: 600;
   font-style: normal;
@@ -731,15 +719,15 @@ img.wp-post-image {
   letter-spacing: 3px;
 }
 
-.mag_button__filled {
+.mag-button__filled {
   background-color: rgb(27, 54, 93);
 }
 
-.mag_button_dark {
+.mag-button_dark {
   color: #000;
 }
 
-.mag_button {
+.mag-button {
   padding-left: 15px;
   padding-right: 15px;
 }

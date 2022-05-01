@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap);
+
 img.wp-smiley,
 img.emoji {
   display: inline !important;
@@ -921,7 +924,9 @@ body:after {
   margin: 0 auto;
   padding-top: 10px;
   width: 100%;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: Roboto,
+    "Noto Sans KR",
+    sans-serif;
   -moz-border-radius-bottomleft: 4px;
   -webkit-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -1175,7 +1180,9 @@ body:after {
   padding: 5px 0 !important;
   margin: 0 !important;
   line-height: 1.3 !important;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: Roboto,
+    "Noto Sans KR",
+    sans-serif;
   font-size: 13px
 }
 
@@ -2369,7 +2376,9 @@ body:after {
 #sb_instagram.sbi_moderation_mode a,
 #sb_instagram.sbi_moderation_mode label,
 #sb_instagram.sbi_moderation_mode p {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif
+  font-family: Roboto,
+    "Noto Sans KR",
+    sans-serif;
 }
 
 .sbi_moderation_mode .sb_instagram_header {
@@ -5052,7 +5061,9 @@ p.has-text-color a {
   font-size: 1.5em;
   letter-spacing: 2em;
   padding-left: 2em;
-  font-family: serif
+  font-family: Roboto,
+    "Noto Sans KR",
+    sans-serif;
 }
 
 .wp-block-custom-logo {
@@ -5944,16 +5955,6 @@ pre.wp-block-verse {
   margin-right: .3em
 }
 
-/*# sourceMappingURL=style.min.css.map */
-
-@charset "UTF-8";
-
-/*!
- * Bootstrap v4.1.0 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -5982,8 +5983,6 @@ pre.wp-block-verse {
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --breakpoint-magplus: 1412px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
 *,
@@ -5994,7 +5993,7 @@ pre.wp-block-verse {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: Roboto, "Noto Sans KR", sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -6021,11 +6020,11 @@ section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Roboto, "Noto Sans KR", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: rgb(27, 54, 93);
   text-align: left;
   background-color: #fff
 }
@@ -13990,7 +13989,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Roboto, "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -14115,7 +14114,8 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -18853,18 +18853,6 @@ a.skip-link {
   width: 100%
 }
 
-/*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-@font-face {
-  font-family: FontAwesome;
-  src: url(//www.magazino.eu/wp-content/themes/magazinoeu/css/../fonts/fontawesome-webfont.eot?v=4.7.0);
-  src: url(//www.magazino.eu/wp-content/themes/magazinoeu/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(//www.magazino.eu/wp-content/themes/magazinoeu/css/../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(//www.magazino.eu/wp-content/themes/magazinoeu/css/../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(//www.magazino.eu/wp-content/themes/magazinoeu/css/../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(//www.magazino.eu/wp-content/themes/magazinoeu/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
-  font-weight: 400;
-  font-style: normal
-}
-
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -22322,7 +22310,9 @@ img[src$=".svg"] {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Roboto,
+    "Noto Sans KR",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-top: 75px;
@@ -22810,7 +22800,7 @@ h6 {
 
 .mag_button.hovered,
 .mag_button:hover {
-  color: #222;
+  color: #fff;
   background-color: rgb(27, 54, 93);
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in
@@ -22968,7 +22958,9 @@ html [type=button] {
 }
 
 .navbar-light .navbar-brand {
-  font-family: "Open Sans", sans-serif;
+  font-family: Roboto,
+    "Noto Sans KR",
+    sans-serif;
   font-size: 28px;
   font-weight: 600;
   font-style: normal;
@@ -24240,7 +24232,7 @@ body.menu-open #wrapper-navbar {
 
 .header_hero.hero70def,
 .header_hero.hero70opt1 {
-  height: 70vh
+  height: 95vh
 }
 
 .header_hero.hero70def .header_hero__content,
@@ -25213,7 +25205,9 @@ body.stickyactive {
 }
 
 .mejs-container * {
-  font-family: "Open Sans", sans-serif
+  font-family: Roboto,
+    "Noto Sans KR",
+    sans-serif;
 }
 
 .mejs-time-total {
@@ -25299,7 +25293,9 @@ body.stickyactive {
 .features-block {
   max-width: 1170px;
   padding: 60px 40px;
-  font-family: "Open Sans", sans-serif;
+  font-family: Roboto,
+    "Noto Sans KR",
+    sans-serif;
   text-align: center
 }
 
@@ -30845,7 +30841,7 @@ body.stickyactive {
   left: 0;
   text-align: center;
   font-weight: 400;
-  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, "Helvetica Neue", sans-serif
+  font-family: "Roboto";
 }
 
 #cookie-notice,
@@ -30948,7 +30944,7 @@ body.stickyactive {
 
 .cn-button.wp-default,
 .cn-button.bootstrap {
-  font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 13px;
   letter-spacing: .25px;
@@ -31222,7 +31218,7 @@ sub {
 }
 
 .amp {
-  font-family: Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", "Warnock Pro", serif;
+  font-family: "Roboto";
   font-size: 1.1em;
   font-style: italic;
   font-weight: 400;

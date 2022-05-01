@@ -3113,8 +3113,6 @@ body:after {
   }
 }
 
-@charset "UTF-8";
-
 #start-resizable-editor-section {
   display: none
 }
@@ -18633,10 +18631,6 @@ a.text-dark:hover {
     text-decoration: underline
   }
 
-  abbr[title]::after {
-    content: " ("attr(title) ")"
-  }
-
   pre {
     white-space: pre-wrap !important
   }
@@ -22506,11 +22500,11 @@ a:hover {
 
 .text-h5 li,
 .text-h5 p {
-  font-size: 22px;
-  font-weight: 300;
+  font-size: 1.05rem;
+  font-weight: 400;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.43;
+  line-height: 1.6;
   letter-spacing: .5px
 }
 
@@ -22795,14 +22789,16 @@ h6 {
   border: 2px solid rgb(27, 54, 93);
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-  letter-spacing: 3px
+  letter-spacing: 3px;
+  background-color: rgb(27, 54, 93);
 }
 
 .mag_button.hovered,
 .mag_button:hover {
-  color: #fff;
-  background-color: rgb(27, 54, 93);
+  color: rgb(27, 54, 93);
+  background-color: #fff;
   -webkit-transition: all .2s ease-in;
+  border: 2px solid #fff;
   transition: all .2s ease-in
 }
 
@@ -24221,7 +24217,7 @@ body.menu-open #wrapper-navbar {
 }
 
 .header_hero__content .mag_button {
-  margin: 0 14px
+  margin: 0 14px;
 }
 
 @media (max-width:991.98px) {
@@ -24243,7 +24239,11 @@ body.menu-open #wrapper-navbar {
 .header_hero.hero100opt1 .header_hero__headline,
 .header_hero.hero70opt1 .header_hero__headline {
   margin-bottom: 20px !important;
-  font-size: 70px
+  font-size: 3.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.05;
 }
 
 @media (max-width:820px) and (orientation:landscape) {
@@ -24630,6 +24630,12 @@ body.menu-open #wrapper-navbar {
   padding: 0 25px
 }
 
+.home-kacheln-text .vision-text {
+  font-size: .9rem;
+  font-weight: 300;
+  line-height: 1.63;
+}
+
 @media (min-width:768px) and (max-width:1199.98px) {
 
   .home-kacheln h4,
@@ -24915,7 +24921,8 @@ body.stickyactive {
   padding: 0 0 0 9px;
   cursor: pointer;
   -webkit-transition: background-color .2s ease-in;
-  transition: background-color .2s ease-in
+  transition: background-color .2s ease-in;
+  color: #fff;
 }
 
 .video-play-button span {
@@ -25028,7 +25035,7 @@ body.stickyactive {
 }
 
 .video-play-button:hover span {
-  border-left-color: #222;
+  border-left-color: #fff;
   -webkit-transition: border .2s ease-in;
   transition: border .2s ease-in
 }
@@ -27541,6 +27548,13 @@ body.stickyactive {
     margin-bottom: 22px;
     min-height: 323px
   }
+}
+
+.news-text {
+  font-size: .9rem;
+  font-weight: 300;
+  line-height: 1.63;
+
 }
 
 .news-item .excerpt a {

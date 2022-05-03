@@ -31400,7 +31400,7 @@ body.menu-open #wrapper-navbar {
 #main-animation .logo-content img {
   width: auto;
   height: 60px;
-  animation: fade-in-out 3.5s 1s ease;
+  animation: fade-in-out 3.5s 1s ease-in-out;
   animation-fill-mode: both;
   position: absolute;
   top: 50%;
@@ -31415,7 +31415,7 @@ body.menu-open #wrapper-navbar {
   margin: 0;
   text-align: center;
   line-height: 100vh;
-  animation: fade-in-out 3.5s 4.6s ease;
+  animation: fade-in-out 3.5s 4.6s ease-in-out;
   animation-fill-mode: both;
 }
 

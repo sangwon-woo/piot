@@ -68,3 +68,4 @@ node_modules/
 # unnecessary files
 *.zip
 images
+.vscode/

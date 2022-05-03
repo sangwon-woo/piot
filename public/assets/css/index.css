@@ -31435,12 +31435,54 @@ body.menu-open #wrapper-navbar {
 
 @keyframes disappear {
   0% {
-    /* z-index: 999; */
+    z-index: 999;
     opacity: 1;
+  }
+
+  80% {
+    z-index: 999;
+    opacity: 0;
   }
 
   100% {
     opacity: 0;
-    /* z-index: -10; */
+    z-index: -10;
+  }
+}
+
+.header_hero__headline {
+  animation: down-up 1s 9s ease-in;
+  animation-fill-mode: both;
+}
+
+.header_hero__text p {
+  animation: down-up 1s 9.5s ease-in;
+  animation-fill-mode: both;
+}
+
+.js-open-youtube.mag_button {
+  animation: show-up 1s 10.5s ease-in;
+  animation-fill-mode: both;
+}
+
+@keyframes down-up {
+  0% {
+    margin-top: 30px;
+    opacity: 0;
+  }
+
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes show-up {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }

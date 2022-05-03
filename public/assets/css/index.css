@@ -23075,7 +23075,7 @@ html [type=button] {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1030;
+  z-index: 998;
   background: #fff;
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: -webkit-transform .3s ease-in-out;
@@ -24337,7 +24337,7 @@ body.menu-open #wrapper-navbar {
   position: absolute;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 997;
   margin: 0 auto;
   bottom: 30px;
   -webkit-box-sizing: border-box;
@@ -31357,4 +31357,39 @@ body.menu-open #wrapper-navbar {
   pointer-events: all !important
 }
 
-/** Mega Menu CSS: fs **/
+/* Animation Section */
+
+
+#main-animation {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#main-animation .content {
+  width: 100%;
+  height: 100%;
+}
+
+#main-animation .cover-wrap {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: 4rem;
+  font-weight: bolder;
+}

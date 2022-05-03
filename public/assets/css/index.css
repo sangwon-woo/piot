@@ -31370,26 +31370,77 @@ body.menu-open #wrapper-navbar {
   left: 0;
   right: 0;
   bottom: 0;
+  animation: disappear 2s 8.1s ease;
+  animation-fill-mode: both;
 }
 
-#main-animation .content {
+#main-animation .inner {
   width: 100%;
   height: 100%;
 }
 
-#main-animation .cover-wrap {
+#main-animation .inner-content {
   background-color: #000;
   width: 100%;
   height: 100%;
   color: white;
-  display: flex;
-  justify-content: center;
+  position: relative;
 }
 
-p {
-  display: flex;
-  align-items: center;
-  /* justify-content: center; */
+#main-animation .logo-content {
+  text-align: center;
+  position: absolute;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#main-animation .logo-content img {
+  width: auto;
+  height: 60px;
+  animation: fade-in-out 3.5s 1s ease;
+  animation-fill-mode: both;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#main-animation .text-content {
   font-size: 4rem;
   font-weight: bolder;
+  margin: 0;
+  text-align: center;
+  line-height: 100vh;
+  animation: fade-in-out 3.5s 4.6s ease;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes disappear {
+  0% {
+    /* z-index: 999; */
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    /* z-index: -10; */
+  }
 }

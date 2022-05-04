@@ -1,7 +1,17 @@
-$(".video-slider").slick({
-  dots: true, // 아래 도트 버튼 - 기본값은 true(보이기)
-  // infinite: true,
-  slidesToShow: 1,
-  // autoplay: true,
-  autoplaySpeed: 5000,
-});
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 100;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("reveal-active");
+    } else {
+      reveals[i].classList.remove("reveal-active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);

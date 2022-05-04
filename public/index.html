@@ -23,7 +23,6 @@
 		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-	<script type="text/javascript" async="" src="./assets/scripts/js_1.js"></script>
 	<script type="text/javascript" async="" src="./assets/scripts/js_2.js"></script>
 	<script type="text/javascript" async="" src="./assets/scripts/js_3.js"></script>
 	<script src="./assets/scripts/js_4.js" type="text/javascript" id="hs-ads-pixel-4791589" data-ads-portal-id="4791589"
@@ -42,7 +41,11 @@
 	<link rel="stylesheet" id="megamenu-css" href="./assets/css/megamenu-css.css" type="text/css" media="all">
 	<link rel="stylesheet" id="dashicons-css" href="./assets/css/dashicons.min.css" type="text/css" media="all">
 
+	<!-- jQuery JS -->
 	<script type="text/javascript" src="./assets/scripts/jquery.min.js" id="jquery-js"></script>
+
+
+
 
 	<script type="text/javascript" id="wpml-cookie-js-extra">
 		/* <![CDATA[ */
@@ -59,8 +62,14 @@
 	<script async="" src="./assets/scripts/modules.baa1e9f436cbc137492e.js" charset="utf-8"></script>
 	<link rel="stylesheet" href="assets/css/hs-form.css">
 
+	<!-- Slick CSS -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
 	<script async="" src="./assets/scripts/js_11.js"></script>
 	<script src="./assets/scripts/js_12.js"></script>
+
+	<!-- Slick JS -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 
 <body data-rsssl="1" class="home page-template-default page page-id-3578 mega-menu-primary group-blog"
@@ -366,10 +375,13 @@
 										<div class="row no-gutters">
 											<div class="header_hero d-flex justify-content-center hero-video hero70opt1">
 												<div class="header_hero__filter"></div>
+
+												<!-- Video Slider -->
 												<video autoplay="" muted="" playsinline="" loop="">
 													<source src="./assets/videos/first.mp4" type="video/mp4">
-													Your browser does not support the video tag.
 												</video>
+												<!-- Video Slider End -->
+
 												<div class="header_hero__content align-self-center text-center">
 													<h1 class="header_hero__headline text-very-big text-white mb-3 mb-lg-5">
 														Pioneer the Future
@@ -1053,23 +1065,26 @@
 			<footer class="site-footer" id="colophon">
 				<div class="container">
 					<div class="row justify-content-between">
-						<div class="col-9 col-md-5 align-self-end">
-							<div class="menu-footer-englisch-container">
-								<ul id="menu-footer-englisch" class="menu">
-									<li id="menu-item-4082"
-										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4082">
-										<a href="#none">Data Policy</a></li>
-									<li id="menu-item-4083"
-										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4083">
-										<a href="#none">Imprint</a></li>
-								</ul>
+
+						<div class="col-9 col-md-9 align-self-end">
+							<div class="menu-footer-englisch-container no-gutters">
+								<p class="m-0">
+									PIOT Inc. | CEO: Sang Hyun Lee
+								</p>
+								<p class="m-0">
+									Address: 2F, 42 Bongeunsa-ro 30-gil, Gangnam-gu, Seoul, Republic of Korea</p>
+								<p class="m-0">
+									Email: Help@piot.co.kr | Director : Seung Yong Lee
+								</p>
+								<p class="m-0">
+									ⓒ 2021 PIOT. All Rights Reserved
+								</p>
 							</div>
 						</div>
-						<!--col end -->
 
-						<div class="col-3 col-md-3 text-right">
-							<a href="index.html">
-								<img class="footer-logo" src="./assets/logo/piot_logo_black.svg" alt="Piot">
+						<div class="col-3 col-md-3 text-right d-flex justify-content-end align-items-end">
+							<a href="#page">
+								<img class="footer-logo" src="./assets/logo/piot_logo_white.svg" alt="Piot">
 							</a>
 						</div>
 					</div>
@@ -1096,6 +1111,7 @@
 	</script>
 	<script defer="" src="./assets/scripts/index.js">
 	</script>
+	<script src="./assets/scripts/custom.js"></script>
 </body>
 
 </html>

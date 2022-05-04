@@ -28662,7 +28662,7 @@ body.stickyactive {
 }
 
 .mag_clients {
-  padding: 50px 0
+  padding: 50px 0 0 0;
 }
 
 .mag_clients .client_logo img {
@@ -31516,4 +31516,10 @@ body.menu-open #wrapper-navbar {
   #main-animation .text-content p {
     font-size: 2.5rem;
   }
+}
+
+/* Footer */
+#wrapper-footer {
+  background-color: rgb(27, 54, 93);
+  color: white;
 }

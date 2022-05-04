@@ -9,10 +9,6 @@ rgba(27, 54, 93)
 
 ## Reference
 
-magazino => Base로 개발
-melriver.com/studio
-beez.ba
-
 ## about
 
 ### vision

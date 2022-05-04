@@ -22882,8 +22882,8 @@ h6 {
 
 .mag_button__filled.hovered,
 .mag_button__filled:hover {
-  background-color: #fffc5d;
-  border-color: #fffc5d
+  background-color: #fff;
+  border-color: #fff
 }
 
 .mag_button_dark {
@@ -24943,7 +24943,7 @@ body.stickyactive {
   height: 150px;
   border: 2px solid rgb(27, 54, 93);
   border-radius: 50%;
-  background-color: transparent;
+  background-color: rgb(27, 54, 93);
   -webkit-transition: background-color .2s ease-in;
   transition: background-color .2s ease-in
 }
@@ -24969,12 +24969,8 @@ body.stickyactive {
   background: 0 0;
   border: 2px solid rgb(27, 54, 93);
   border-radius: 50%;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  -webkit-transition: border .2s;
-  transition: border .2s;
-  -webkit-transition: background-color .2s ease-in;
-  transition: background-color .2s ease-in
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
 
 @media (max-width:575.98px) {
@@ -25035,15 +25031,16 @@ body.stickyactive {
 }
 
 .video-play-button:hover span {
-  border-left-color: #fff;
+  border-left-color: rgb(27, 54, 93);
   -webkit-transition: border .2s ease-in;
   transition: border .2s ease-in
 }
 
 .video-play-button:hover:after {
-  background-color: rgb(27, 54, 93);
-  -webkit-transition: background-color .2s ease-in;
-  transition: background-color .2s ease-in
+  background-color: #fff;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  border: 2px solid #fff;
 }
 
 @-webkit-keyframes pulse-border {
@@ -31358,8 +31355,6 @@ body.menu-open #wrapper-navbar {
 }
 
 /* Animation Section */
-
-
 #main-animation {
   background-color: #fff;
   width: 100vw;
@@ -31370,7 +31365,7 @@ body.menu-open #wrapper-navbar {
   left: 0;
   right: 0;
   bottom: 0;
-  animation: disappear 2s 8.1s ease;
+  animation: disappear 2s 8.5s ease;
   animation-fill-mode: both;
 }
 
@@ -31400,7 +31395,7 @@ body.menu-open #wrapper-navbar {
 #main-animation .logo-content img {
   width: auto;
   height: 60px;
-  animation: fade-in-out 3.5s 1s ease-in-out;
+  animation: fade-in-out 3.5s .5s ease-in-out;
   animation-fill-mode: both;
   position: absolute;
   top: 50%;
@@ -31408,15 +31403,39 @@ body.menu-open #wrapper-navbar {
   transform: translate(-50%, -50%);
 }
 
-
-#main-animation .text-content {
+#main-animation .text-content p {
+  display: inline-block;
   font-size: 4rem;
   font-weight: bolder;
-  margin: 0;
+  margin: 0 1rem;
   text-align: center;
   line-height: 100vh;
-  animation: fade-in-out 3.5s 4.6s ease-in-out;
+
+}
+
+#main-animation .text-content .slogan-word1 {
+  animation: fade-in 3.5s 4s ease-in-out;
   animation-fill-mode: both;
+}
+
+#main-animation .text-content .slogan-word2 {
+  animation: fade-in 3.5s 5s ease-in-out;
+  animation-fill-mode: both;
+}
+
+#main-animation .text-content .slogan-word3 {
+  animation: fade-in 3.5s 6s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
 
 @keyframes fade-in-out {
@@ -31445,23 +31464,23 @@ body.menu-open #wrapper-navbar {
   }
 
   100% {
-    opacity: 0;
     z-index: -10;
+    opacity: 0;
   }
 }
 
 .header_hero__headline {
-  animation: down-up 1s 9s ease-in;
+  animation: down-up 1s 10s ease-in;
   animation-fill-mode: both;
 }
 
 .header_hero__text p {
-  animation: down-up 1s 9.5s ease-in;
+  animation: down-up 1s 10.5s ease-in;
   animation-fill-mode: both;
 }
 
 .js-open-youtube.mag_button {
-  animation: show-up 1s 10.5s ease-in;
+  animation: show-up 1s 11s ease-in;
   animation-fill-mode: both;
 }
 
@@ -31484,5 +31503,17 @@ body.menu-open #wrapper-navbar {
 
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #main-animation .text-content p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #main-animation .text-content p {
+    font-size: 2.5rem;
   }
 }

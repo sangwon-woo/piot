@@ -24226,10 +24226,10 @@ body.menu-open #wrapper-navbar {
   }
 }
 
-.header_hero.hero70def,
+/* .header_hero.hero70def,
 .header_hero.hero70opt1 {
   height: 95vh
-}
+} */
 
 .header_hero.hero70def .header_hero__content,
 .header_hero.hero70opt1 .header_hero__content {
@@ -31354,7 +31354,21 @@ body.menu-open #wrapper-navbar {
   pointer-events: all !important
 }
 
-/* Animation Section */
+/* ============= Main Image ============= */
+.entry-content .main-image img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 8;
+  object-fit: cover;
+  object-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* ============= Main Animation Section ============= */
 #main-animation {
   background-color: #fff;
   width: 100vw;
@@ -31382,7 +31396,7 @@ body.menu-open #wrapper-navbar {
   position: relative;
 }
 
-#main-animation .logo-content {
+#main-animation .inner-content .logo-content {
   text-align: center;
   position: absolute;
   z-index: 1001;
@@ -31392,25 +31406,32 @@ body.menu-open #wrapper-navbar {
   bottom: 0;
 }
 
-#main-animation .logo-content img {
+#main-animation .inner-content .logo-content img {
   width: auto;
   height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   animation: fade-in-out 3.5s .5s ease-in-out;
   animation-fill-mode: both;
+}
+
+#main-animation .inner-content .text-content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-#main-animation .text-content p {
+#main-animation .inner-content .text-content span {
   display: inline-block;
-  font-size: 4rem;
-  font-weight: bolder;
-  margin: 0 1rem;
+  font-size: 3.9rem;
+  font-weight: 700;
   text-align: center;
-  line-height: 100vh;
-
+  letter-spacing: 0.08em;
+  line-height: 1.05;
+  margin: 10px;
 }
 
 #main-animation .text-content .slogan-word1 {
@@ -31469,10 +31490,10 @@ body.menu-open #wrapper-navbar {
   }
 }
 
-.header_hero__headline {
+/* .header_hero__headline {
   animation: down-up 1s 10s ease-in;
   animation-fill-mode: both;
-}
+} */
 
 .header_hero__text p {
   animation: down-up 1s 10.5s ease-in;

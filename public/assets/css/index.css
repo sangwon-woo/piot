@@ -22505,7 +22505,7 @@ a:hover {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.6;
-  letter-spacing: .5px
+  letter-spacing: .5px;
 }
 
 @media (max-width:575.98px) {
@@ -22687,7 +22687,7 @@ p {
   font-style: normal;
   font-stretch: normal;
   line-height: 1.75;
-  letter-spacing: .5px
+  letter-spacing: .5px;
 }
 
 h1 {
@@ -22772,6 +22772,7 @@ h6 {
   width: 100%;
   z-index: 20
 }
+
 
 .mag_button {
   font-size: 12px;
@@ -31499,8 +31500,10 @@ body.menu-open #wrapper-navbar {
 } */
 
 .header_hero__text p {
-  animation: down-up 1s 10.5s ease-in;
-  animation-fill-mode: both;
+  /* animation: down-up 1s 10.5s ease-in;
+  animation-fill-mode: both; */
+  letter-spacing: -1px;
+  line-height: 1.7;
 }
 
 .js-open-youtube.mag_button {

@@ -402,7 +402,7 @@
 @media only screen and (min-width:601px) {
   #mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item>a.mega-menu-link:hover {
     background: #fff;
-    color: rgb(27, 54, 93);
+    color: #586e99;
     font-weight: 300;
     text-decoration: none;
     border-color: #fff
@@ -411,7 +411,7 @@
 
 #mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-item.mega-toggle-on>a.mega-menu-link {
   background: #fff;
-  color: rgb(27, 54, 93);
+  color: #586e99;
   font-weight: 300;
   text-decoration: none;
   border-color: #fff

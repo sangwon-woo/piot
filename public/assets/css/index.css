@@ -22311,7 +22311,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding-top: 75px;
   overflow-x: hidden;
-  color: #222
+  color: #222;
 }
 
 @media (max-width:575.98px) {
@@ -24228,8 +24228,12 @@ body.menu-open #wrapper-navbar {
 
 /* .header_hero.hero70def,
 .header_hero.hero70opt1 {
-  height: 95vh
+  height: 70vh;
 } */
+
+.header_hero.hero70opt1_ {
+  height: 70vh;
+}
 
 .header_hero.hero70def .header_hero__content,
 .header_hero.hero70opt1 .header_hero__content {
@@ -27611,7 +27615,7 @@ body.stickyactive {
 
 .event-item {
   position: relative;
-  background: #ebeeee;
+  background: #e0e0db;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   overflow: hidden
@@ -28007,7 +28011,7 @@ body.stickyactive {
 }
 
 .mag_bewerben {
-  background-color: #ebeeee;
+  background-color: #e0e0db;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

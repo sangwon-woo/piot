@@ -304,4 +304,3 @@
     }
   },
 ]);
-//# sourceMappingURL=pixels-release.js.map

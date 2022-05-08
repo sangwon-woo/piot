@@ -1810,6 +1810,7 @@ body:after {
 .sb_instagram_header h3 {
   font-size: 16px;
   line-height: 1.3;
+  word-wrap: break-word;
   -ms-word-wrap: break-word;
   word-break: break-word
 }
@@ -2058,8 +2059,10 @@ body:after {
 
 .sbi-owl-stage {
   position: relative;
+  touch-action: pan-Y;
   -ms-touch-action: pan-Y;
-  -moz-backface-visibility: hidden
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
 }
 
 .sbi-owl-stage:after {
@@ -2074,11 +2077,14 @@ body:after {
 .sbi-owl-stage-outer {
   position: relative;
   overflow: hidden;
-  -webkit-transform: translate3d(0, 0, 0)
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .sbi-owl-item,
 .sbi-owl-wrapper {
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
@@ -2093,6 +2099,7 @@ body:after {
   padding: 0 5px;
   padding: 0;
   float: left;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none
@@ -2218,6 +2225,7 @@ body:after {
   background: url(//www.magazino.eu/wp-content/plugins/instagram-feed-pro/css/owl.video.play.png) no-repeat;
   cursor: pointer;
   z-index: 1;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transition: transform .1s ease
 }
@@ -2287,6 +2295,7 @@ body:after {
   background: #333;
   filter: Alpha(Opacity=25);
   opacity: .25;
+  backface-visibility: hidden;
   -webkit-backface-visibility: visible;
   transition: opacity .1s ease;
   border-radius: 30px
@@ -23311,6 +23320,8 @@ body.menu-open #wrapper-navbar {
 }
 
 .magmenuitem_widget .mega-image-flipper {
+  transform-style: preserve-3d;
+  ;
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d
 }

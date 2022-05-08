@@ -22825,6 +22825,7 @@ h6 {
 .mag_button.hovered,
 .mag_button:hover {
   color: rgb(27, 54, 93);
+  stroke: rgb(27, 54, 93);
   background-color: #fff;
   -webkit-transition: all .2s ease-in;
   border: 2px solid #fff;
@@ -31589,13 +31590,13 @@ body.menu-open #wrapper-navbar {
 }
 
 @media (max-width: 575.98px) {
-  #main-animation .text-content p {
+  #main-animation .text-content span {
     font-size: 2rem;
   }
 }
 
 @media (max-width: 767.98px) {
-  #main-animation .text-content p {
+  #main-animation .text-content span {
     font-size: 2.5rem;
   }
 }

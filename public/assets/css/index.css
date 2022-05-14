@@ -31636,3 +31636,15 @@ p.profile-text {
 span.profile-piot {
   font-size: 40px;
 }
+
+.main-slogan {
+  font-size: 2.5em;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+
+@media (max-width:575.98px) {
+  .main-slogan {
+    font-size: 2em;
+  }
+}

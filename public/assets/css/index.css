@@ -25400,7 +25400,7 @@ body.stickyactive {
 }
 
 .features-block .features-icon__big {
-  width: 135px
+  width: 135px;
 }
 
 @media (max-width:575.98px) {
@@ -31651,4 +31651,13 @@ span.profile-piot {
   .main-slogan {
     font-size: 2em;
   }
+}
+
+p.service-consulting-subtext {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+div.service-consulting {
+  background-color: rgb(224, 224, 219);
 }

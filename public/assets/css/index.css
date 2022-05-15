@@ -31700,3 +31700,12 @@ p.service-consulting-subtext {
 div.service-consulting {
   background-color: rgb(224, 224, 219);
 }
+
+div.project-video {
+  min-height: 512px;
+}
+
+div.project-video iframe {
+  width: 100%;
+  height: 100%;
+}

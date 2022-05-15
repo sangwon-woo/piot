@@ -22902,6 +22902,10 @@ h6 {
   color: #000
 }
 
+.mag_button_bright {
+  color: #fff
+}
+
 .mag_button .mag_icon--svg {
   position: absolute;
   right: 20px;

@@ -23737,8 +23737,10 @@ body.menu-open #wrapper-navbar {
 }
 
 .single .hero,
-.single-magtechnologie .hero {
-  height: 50vh
+.single-magtechnologie .hero,
+.single article .entry-header .hero {
+  height: 50vh;
+  position: relative;
 }
 
 .single .hero img,

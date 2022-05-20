@@ -69,3 +69,4 @@ node_modules/
 *.zip
 images
 .vscode/
+.firebaseConfig.js

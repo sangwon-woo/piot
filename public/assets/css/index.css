@@ -25965,7 +25965,7 @@ body.stickyactive {
   width: 100%;
   height: 100%;
   background: #000;
-  opacity: 0;
+  opacity: .4;
   z-index: 10
 }
 
@@ -27018,7 +27018,7 @@ body.stickyactive {
 }
 
 .mag_tab.product-tab {
-  background: rgb(27, 54, 93);
+  background: #000;
   padding-bottom: 100px;
 }
 
@@ -28818,7 +28818,7 @@ body.stickyactive {
 }
 
 .mag_profil.option1 {
-  background: #ebeeee
+  background: #000;
 }
 
 @media (max-width:991.98px) {

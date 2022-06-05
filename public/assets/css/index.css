@@ -31455,6 +31455,12 @@ body.menu-open #wrapper-navbar {
   bottom: 0;
 }
 
+@media (max-width: 767.98px) {
+  .entry-content .main-image img {
+    src: url(../images/mobile-main-image.jpg);
+  }
+}
+
 /* ============= Main Animation Section ============= */
 #main-animation {
   background-color: #fff;

@@ -22962,6 +22962,10 @@ html [type=button] {
   background-color: #000;
 }
 
+.blackbg {
+  background-color: #000;
+}
+
 .darkgreen-bg {
   background-color: #26373b
 }
@@ -29079,7 +29083,7 @@ body.stickyactive {
 }
 
 .news-item-all .news-item-content h3 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 

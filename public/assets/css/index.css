@@ -22958,6 +22958,10 @@ html [type=button] {
   background-color: rgb(27, 54, 93);
 }
 
+.mainblue-bk {
+  background-color: #000;
+}
+
 .darkgreen-bg {
   background-color: #26373b
 }

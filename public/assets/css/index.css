@@ -22808,8 +22808,6 @@ h6 {
   background-color: black;
 }
 
-
-
 .mag_button.hovered,
 .mag_button:hover {
   color: #fff;
@@ -22908,8 +22906,8 @@ h6 {
 
 .mag_button__filled.hovered,
 .mag_button__filled:hover {
-  background-color: #fff;
-  border-color: #fff
+  background-color: rgb(46, 103, 177);
+  border-color: rgb(46, 103, 177);
 }
 
 .mag_button_dark {

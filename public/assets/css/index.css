@@ -18607,6 +18607,10 @@ a.text-dark:hover {
   color: #6c757d !important
 }
 
+.text-black {
+  color: #000 !important
+}
+
 .text-black-50 {
   color: rgba(0, 0, 0, .5) !important
 }
@@ -22935,7 +22939,7 @@ h6 {
 }
 
 .mehr_link:hover {
-  color: rgb(27, 54, 93)
+  color: rgb(46, 103, 177);
 }
 
 [type=reset],
@@ -22954,8 +22958,8 @@ html [type=button] {
   padding: 0
 }
 
-.mainblue-bg {
-  background-color: rgb(27, 54, 93);
+.piotbluebg {
+  background-color: rgb(46, 103, 177);
 }
 
 .mainblue-bk {
@@ -22976,6 +22980,10 @@ html [type=button] {
 
 .midlightgreybg {
   background-color: #ebeeee
+}
+
+.piotgreybg {
+  background-color: rgb(241, 241, 241);
 }
 
 .navbar {
@@ -24713,7 +24721,7 @@ p.who-we-are {
 }
 
 .mag_section_title {
-  padding: 50px 0
+  padding: 3.5rem 0
 }
 
 .mag_section_title h2 {
@@ -24740,7 +24748,7 @@ p.who-we-are {
   color: #fff
 }
 
-.mag_section_headline.mainblue-bg {
+.mag_section_headline.piotbluebg {
   color: #fff
 }
 
@@ -24757,16 +24765,16 @@ p.who-we-are {
   color: #fff
 }
 
-.mag_section_headline.mainblue-bg .mag_section_title,
-.mag_section_headline.mainblue-bg h1,
-.mag_section_headline.mainblue-bg h2,
-.mag_section_headline.mainblue-bg h3,
-.mag_section_headline.mainblue-bg h4,
-.mag_section_headline.mainblue-bg h5.h6 {
+.mag_section_headline.piotbluebg .mag_section_title,
+.mag_section_headline.piotbluebg h1,
+.mag_section_headline.piotbluebg h2,
+.mag_section_headline.piotbluebg h3,
+.mag_section_headline.piotbluebg h4,
+.mag_section_headline.piotbluebg h5.h6 {
   color: #fff
 }
 
-.mag_section_headline.mainblue-bg p {
+.mag_section_headline.piotbluebg p {
   color: #fff
 }
 
@@ -28731,7 +28739,7 @@ body.stickyactive {
 }
 
 .mag_clients {
-  padding: 50px 0 0 0;
+  padding: 1rem 0 3rem 0;
 }
 
 .mag_clients .client_logo img {
@@ -28821,9 +28829,6 @@ body.stickyactive {
   padding: 50px 0
 }
 
-.mag_profil.option1 {
-  background: #000;
-}
 
 @media (max-width:991.98px) {
   .mag_profil.option2 {
@@ -31446,22 +31451,25 @@ body.menu-open #wrapper-navbar {
 }
 
 /* ============= Main Image ============= */
-.entry-content .main-image img {
+
+
+
+.entry-content .main-image {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: 8;
-  object-fit: cover;
-  object-position: center;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  background-image: url(../images/main-image-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 8;
 }
 
-@media (max-width: 767.98px) {
-  .entry-content .main-image img {
-    src: url(../images/mobile-main-image.jpg);
+@media (max-width: 575.98px) {
+  .entry-content .main-image {
+    background-image: url(../images/mobile-main-image.jpg);
   }
 }
 

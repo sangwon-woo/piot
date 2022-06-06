@@ -6417,9 +6417,6 @@ jQuery(document).ready(function ($) {
         t
       );
     })();
-    document.addEventListener("DOMContentLoaded", function () {
-      new c(wpml_browser_redirect_params, navigator, window).init();
-    });
   },
   function (t, r) {
     !(function (t) {
@@ -14746,84 +14743,7 @@ jQuery(document).ready(function ($) {
           )
             if (e.matches(n)) return e;
           return null;
-        }),
-        (this.init = function () {
-          var n = this;
-          (this.cookiesAccepted = this.getStatus(!0)),
-            (this.noticeContainer = t.getElementById("cookie-notice"));
-          var i = t.getElementsByClassName("cn-set-cookie"),
-            o = t.getElementsByClassName("cn-revoke-cookie"),
-            s = t.getElementById("cn-close-notice");
-          this.noticeContainer.classList.add("cn-effect-" + cnArgs.hideEffect),
-            null === this.cookiesAccepted
-              ? ("1" === cnArgs.onScroll &&
-                  e.addEventListener("scroll", function (e) {
-                    n.handleScroll();
-                  }),
-                "1" === cnArgs.onClick &&
-                  e.addEventListener(
-                    "click",
-                    function (e) {
-                      null === n.getClosest(e.target, "#cookie-notice") &&
-                        n.setStatus("accept");
-                    },
-                    !0
-                  ),
-                this.setBodyClass(["cookies-not-set"]),
-                this.showCookieNotice())
-              : (this.setBodyClass([
-                  "cookies-set",
-                  !0 === this.cookiesAccepted
-                    ? "cookies-accepted"
-                    : "cookies-refused",
-                ]),
-                "1" === cnArgs.revokeCookies &&
-                  "automatic" === cnArgs.revokeCookiesOpt &&
-                  this.showRevokeNotice());
-          for (var c = 0; c < i.length; c++)
-            i[c].addEventListener("click", function (e) {
-              e.preventDefault(),
-                e.stopPropagation(),
-                n.setStatus(this.dataset.cookieSet);
-            });
-          "null" !== s &&
-            s.addEventListener("click", function (e) {
-              e.preventDefault(), e.stopPropagation(), n.setStatus("reject");
-            });
-          for (c = 0; c < o.length; c++)
-            o[c].addEventListener("click", function (e) {
-              e.preventDefault(),
-                n.noticeContainer.classList.contains("cookie-revoke-visible")
-                  ? (n.hideRevokeNotice(),
-                    n.noticeContainer.addEventListener(
-                      "animationend",
-                      function e() {
-                        n.noticeContainer.removeEventListener(
-                          "animationend",
-                          e
-                        ),
-                          n.showCookieNotice();
-                      }
-                    ),
-                    n.noticeContainer.addEventListener(
-                      "webkitAnimationEnd",
-                      function e() {
-                        n.noticeContainer.removeEventListener(
-                          "webkitAnimationEnd",
-                          e
-                        ),
-                          n.showCookieNotice();
-                      }
-                    ))
-                  : n.noticeContainer.classList.contains(
-                      "cookie-notice-hidden"
-                    ) &&
-                    n.noticeContainer.classList.contains(
-                      "cookie-revoke-hidden"
-                    ) &&
-                    n.showCookieNotice();
-            });
-        });
+        })
     })();
     e.addEventListener(
       "load",

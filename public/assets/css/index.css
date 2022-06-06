@@ -23225,7 +23225,7 @@ html [type=button] {
 
 .hamburger .hamburger-inner {
   position: absolute;
-  background-color: #586e99;
+  background-color: rgb(46, 103, 177);
   width: 25px;
   height: 2px;
   -webkit-transition-timing-function: ease;
@@ -23247,7 +23247,7 @@ html [type=button] {
   content: "";
   width: 25px;
   height: 2px;
-  border-top: 2px solid #586e99;
+  border-top: 2px solid rgb(46, 103, 177);
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: .15s;

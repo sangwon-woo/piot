@@ -22259,7 +22259,7 @@ a.skip-link {
   height: 70px;
   width: 70px;
   border-radius: 50%;
-  border: solid 2px rgb(27, 54, 93);
+  border: solid 2px rgb(46, 103, 177);
   background-color: transparent;
   position: absolute;
   top: 50%;
@@ -22306,7 +22306,7 @@ a.skip-link {
 .slick-arrow:hover {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  background-color: rgb(27, 54, 93);
+  background-color: rgb(46, 103, 177);
 }
 
 .slick-arrow:focus {
@@ -22354,7 +22354,7 @@ a.skip-link {
 }
 
 .slick-dots li.slick-active button {
-  background-color: rgb(27, 54, 93);
+  background-color:rgb(46, 103, 177);
 }
 
 @-webkit-keyframes modal-video {
@@ -22577,7 +22577,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: rgb(27, 54, 93);
+  color:rgb(46, 103, 177);
 }
 
 .text-very-big {
@@ -22841,7 +22841,7 @@ a:hover {
 }
 
 .text-green {
-  color: rgb(27, 54, 93);
+  color: rgb(46, 103, 177);
 }
 
 .text-lightgrey {
@@ -23065,7 +23065,7 @@ h6 {
 
 .mag_button__arrow.hovered svg .arrow-lines,
 .mag_button__arrow:hover svg .arrow-lines {
-  stroke: rgb(27, 54, 93);
+  stroke: rgb(46, 103, 177);
   -webkit-transition: stroke 0.2s ease-in;
   transition: stroke 0.2s ease-in;
 }
@@ -27335,6 +27335,7 @@ body.stickyactive {
 }
 
 .mag_tab.product-tab {
+  height: 300px;
   background: #000;
   padding-bottom: 100px;
 }

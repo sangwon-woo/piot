@@ -14,7 +14,6 @@ img.emoji {
   padding: 0 !important;
 }
 
-
 .wp-block-audio figcaption {
   margin-top: 0.5em;
   margin-bottom: 1em;
@@ -3108,7 +3107,7 @@ a {
 }
 
 a:hover {
-  color:rgb(46, 103, 177);
+  color: rgb(46, 103, 177);
   text-decoration: underline;
 }
 
@@ -11631,7 +11630,7 @@ button.close {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
-} 
+}
 
 .align-baseline {
   vertical-align: baseline !important;
@@ -19205,7 +19204,7 @@ a.skip-link {
 }
 
 .slick-dots li.slick-active button {
-  background-color:rgb(46, 103, 177);
+  background-color: rgb(46, 103, 177);
 }
 
 @-webkit-keyframes modal-video {
@@ -19428,7 +19427,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color:rgb(46, 103, 177);
+  color: rgb(46, 103, 177);
 }
 
 .text-very-big {
@@ -19545,6 +19544,12 @@ a:hover {
   color: #000;
 }
 
+@media (max-width: 575.98px) {
+  .text-h4 {
+    font-size: 0.9rem;
+  }
+}
+
 .text-h4 li,
 .text-h4 p {
   font-size: 24px;
@@ -19633,6 +19638,13 @@ a:hover {
   line-height: 1.75;
   letter-spacing: 0.5px;
   color: #000;
+}
+
+@media (max-width: 575.98px) {
+  .text-magbody li,
+  .text-magbody p {
+    font-size: 0.9rem;
+  }
 }
 
 .text-link {
@@ -19735,6 +19747,15 @@ a:hover {
   font-stretch: normal;
   line-height: 1.78;
   letter-spacing: 0.5px;
+}
+
+@media (max-width: 575.98px) {
+  .text-body-2 a,
+  .text-body-2 li,
+  .text-body-2 p,
+  .text-body-2 ul {
+    font-size: 0.9rem;
+  }
 }
 
 .text-body-2 p {
@@ -19867,11 +19888,17 @@ h6 {
   background-color: black;
 }
 
+@media (max-width: 575.98px) {
+  .mag_button {
+    min-width: 168px;
+  }
+}
+
 .mag_button.hovered,
 .mag_button:hover {
-  color: #fff;
+  color: #fff !important;
   stroke: #000;
-  background-color: rgb(46, 103, 177);
+  background-color: rgb(46, 103, 177) !important;
   -webkit-transition: all 0.2s ease-in;
   border: 2px solid rgb(46, 103, 177);
   transition: all 0.2s ease-in;
@@ -22537,6 +22564,12 @@ body.stickyactive {
   padding: 0;
 }
 
+@media (max-width: 575.98px) {
+  .features-block .feature-description {
+    font-size: 0.9rem;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1411.98px) {
   .features-block .feature-description {
     text-align: left;
@@ -22796,6 +22829,12 @@ body.stickyactive {
 
 .text-headline.text-h2 {
   font-size: 30px;
+}
+
+@media (max-width: 575.98px) {
+  .text-headline.text-h2 {
+    font-size: 24px;
+  }
 }
 
 .text-description {
@@ -23066,7 +23105,7 @@ body.stickyactive {
 }
 
 .cases .card-img-overlay .text-headline {
-  margin: 6px auto;
+  margin: -2px auto -11px auto;
 }
 
 .cases .card-img-overlay .text-heading {
@@ -23084,7 +23123,7 @@ body.stickyactive {
   transition: all 0.3s ease-out;
   will-change: transform;
   margin: 0 -5px;
-  padding: 0 55px 0 45px;
+  padding: 0 45px;
 }
 
 .cases.card {
@@ -24188,7 +24227,7 @@ body.stickyactive {
 }
 
 .mag_tab.product-tab {
-  height: 300px;
+  min-height: 393px;
   background: #000;
   padding-bottom: 100px;
 }
@@ -24196,6 +24235,9 @@ body.stickyactive {
 @media (max-width: 575.98px) {
   .mag_tab.product-tab {
     padding-bottom: 50px;
+  }
+  .mag_tab.product-tab {
+    min-height: 395px;
   }
 }
 
@@ -24368,7 +24410,7 @@ body.stickyactive {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding: 0 50px;
+    padding: 0 12px;
   }
 
   .mag_tab #product-part .text-h5 p {
@@ -24779,7 +24821,7 @@ body.stickyactive {
   .news-item {
     padding: 0;
     margin-bottom: 22px;
-    min-height: 323px;
+    min-height: 300px;
   }
 }
 
@@ -25229,6 +25271,12 @@ body.stickyactive {
   padding: 90px 0;
 }
 
+@media (max-width: 575.98px) {
+  .mag_buttons {
+    padding: 30px 0;
+  }
+}
+
 .buttons-list .mag_button {
   margin: 0 18px;
 }
@@ -25331,7 +25379,7 @@ body.stickyactive {
 
 @media (max-width: 575.98px) {
   .mag_bewerben .textblock .text-h2 {
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -25342,7 +25390,7 @@ body.stickyactive {
 
 @media (max-width: 575.98px) {
   .mag_bewerben .textblock .text-h5 p {
-    font-size: 16px;
+    font-size: 0.9rem;
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
@@ -28714,6 +28762,9 @@ body.menu-open #wrapper-navbar {
   #main-animation .text-content .slogan-word2 {
     margin-left: 0px !important;
   }
+  #main-animation .text-content .slogan-word3 {
+    margin-left: 0px !important;
+  }
 }
 
 @media (max-width: 300.98px) {
@@ -28869,10 +28920,18 @@ body.menu-open #wrapper-navbar {
 }
 
 p.profile-text {
-  /* font-family: 'AType'; */
   line-height: 1.47;
   font-size: 32px;
   letter-spacing: -1px;
+}
+
+@media (max-width: 575.98px) {
+  p.profile-text {
+    font-size: 18px;
+  }
+  p.padding-x-25 {
+    padding: 0 25px;
+  }
 }
 
 span.profile-piot {
@@ -28887,7 +28946,9 @@ span.profile-piot {
 
 @media (max-width: 575.98px) {
   .main-slogan {
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 1;
+    letter-spacing: 0.3px;
   }
 }
 

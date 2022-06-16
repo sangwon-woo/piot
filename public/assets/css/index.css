@@ -26250,6 +26250,12 @@ body.stickyactive {
   p.mobile-title {
     font-size: 24px;
   }
+  p.mobile-subtitle {
+    font-size: 18px
+  }
+  p.mobile-text {
+    font-size: 0.9rem;
+  }
 }
 
 .news-item-all_inner img {

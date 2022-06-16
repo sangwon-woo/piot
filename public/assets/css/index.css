@@ -24398,6 +24398,9 @@ body.stickyactive {
   .mag_tab .carousel-indicators.title-navs #magic-line {
     display: none;
   }
+  .mag_tab .carousel-indicators.title-navs li a {
+    font-size: 0.9rem;
+  }
 }
 
 .mag_tab #product-part .carousel-item {
@@ -28853,11 +28856,11 @@ body.menu-open #wrapper-navbar {
 
   .header_hero.hero100opt1 .header_hero__headline,
   .header_hero.hero70opt1 .header_hero__headline {
-    font-size: 3rem;
+    font-size: 24px;
   }
 
   .header_hero.hero70opt1 .text-h5 p {
-    font-size: 0.8rem;
+    font-size: 18px;
   }
 }
 
@@ -28927,7 +28930,7 @@ p.profile-text {
 
 @media (max-width: 575.98px) {
   p.profile-text {
-    font-size: 18px;
+    font-size: 0.9rem;
   }
   p.padding-x-25 {
     padding: 0 25px;
@@ -28950,6 +28953,10 @@ span.profile-piot {
     line-height: 1;
     letter-spacing: 0.3px;
   }
+
+  span.profile-piot {
+  font-size: 24px;
+}
 }
 
 p.service-consulting-subtext {

@@ -20972,7 +20972,7 @@ body.menu-open #wrapper-navbar {
 }
 
 @media (max-width: 991.98px) {
-  .single-magtechnologie .mag_querlink {
+  .single-magtechnologie .piot_querlink {
     padding-top: 0;
   }
 }
@@ -21475,6 +21475,10 @@ p.who-we-are {
   .header_hero.hero100opt1 .text-h5 p,
   .header_hero.hero70opt1 .text-h5 p {
     font-size: 0.92rem;
+  }
+
+  .header_hero.hero .header_hero__headline {
+    font-size: 24px;
   }
 }
 
@@ -24464,7 +24468,7 @@ body.stickyactive {
   margin: 0;
 }
 
-.mag_querlink {
+.piot_querlink {
   padding: 70px 0;
 }
 

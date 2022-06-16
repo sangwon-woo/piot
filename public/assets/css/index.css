@@ -19442,7 +19442,7 @@ a:hover {
 
 @media (max-width: 575.98px) {
   .text-very-big {
-    font-size: 70px;
+    font-size: 24px;
     line-height: 1.29;
   }
 }
@@ -26243,6 +26243,9 @@ body.stickyactive {
 @media (max-width: 575.98px) {
   .news-item-all {
     padding: 25px;
+  }
+  .all_news .news-item .text-h4 {
+    font-size: 24px;
   }
 }
 

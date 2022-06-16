@@ -26260,6 +26260,9 @@ body.stickyactive {
   p.mobile-text {
     font-size: 0.9rem;
   }
+  h1.mobile-title {
+    font-size: 24px !important;
+  }
 }
 
 .news-item-all_inner img {

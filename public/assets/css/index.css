@@ -28969,3 +28969,9 @@ div.project-video iframe {
   width: 100%;
   height: 100%;
 }
+
+@media (max-width: 575.98px) {
+p.footer-lh {
+  line-height: 1.1;
+}
+}

@@ -19447,8 +19447,9 @@ a:hover {
 
 @media (max-width: 575.98px) {
   .text-very-big {
-    font-size: 24px;
+    font-size: 30px;
     line-height: 1.29;
+    font-weight: 500;
   }
 }
 
@@ -19596,7 +19597,7 @@ a:hover {
 @media (max-width: 575.98px) {
   .text-h5 li,
   .text-h5 p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.4;
   }
 }
@@ -22843,6 +22844,7 @@ body.stickyactive {
 @media (max-width: 575.98px) {
   .text-headline.text-h2 {
     font-size: 24px;
+    font-weight: 500;
   }
 }
 

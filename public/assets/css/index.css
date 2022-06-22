@@ -21453,9 +21453,7 @@ body.menu-open #wrapper-navbar {
   max-width: none;
 }
 
-.header_hero.hero100opt1 .header_hero__headline,
-.header_hero.hero70opt1 .header_hero__headline,
-.header_hero.hero .header_hero__headline {
+.header_hero.hero100opt1 .header_hero__headline {
   margin-bottom: 20px !important;
   font-size: 4rem;
   letter-spacing: normal;
@@ -21473,8 +21471,7 @@ p.who-we-are {
     margin-bottom: 0 !important;
   }
 
-  .header_hero.hero100opt1 .header_hero__headline,
-  .header_hero.hero70opt1 .header_hero__headline {
+  .header_hero.hero100opt1 .header_hero__headline {
     font-size: 3.5rem;
   }
 

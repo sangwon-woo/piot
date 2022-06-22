@@ -26271,6 +26271,10 @@ p.mobile-text {
   }
 }
 
+p.line-height-1 {
+  line-height: 1.1;
+}
+
 .news-item-all_inner img {
   position: absolute;
   top: 0;

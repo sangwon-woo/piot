@@ -19444,12 +19444,16 @@ a:hover {
   letter-spacing: normal;
   color: #000;
 }
-
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .text-very-big {
-    font-size: 30px;
+    font-size: 4rem;
     line-height: 1.29;
     font-weight: 500;
+  }
+}
+@media (max-width: 575.98px) {
+  .text-very-big {
+    font-size: 3rem;
   }
 }
 
@@ -28912,6 +28916,21 @@ body.menu-open #wrapper-navbar {
 
   .header_hero.hero70opt1 .text-h5 p {
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 368px) {
+  p.who-we-are {
+    font-size: 0.8rem;
+  }
+
+  .header_hero.hero100opt1 .header_hero__headline,
+  .header_hero.hero70opt1 .header_hero__headline {
+    font-size: 2rem;
+  }
+
+  .header_hero.hero70opt1 .text-h5 p {
+    font-size: 0.75rem;
   }
 }
 

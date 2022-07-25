@@ -70,3 +70,4 @@ node_modules/
 images
 .vscode/
 .firebaseConfig.js
+*.mp4

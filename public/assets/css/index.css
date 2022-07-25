@@ -16773,7 +16773,7 @@ a:hover {
 @media (max-width: 767.98px) {
   .text-very-big {
     font-size: 4rem;
-    line-height: 1.29;
+    line-height: .9;
     font-weight: 500;
   }
 }
@@ -19864,7 +19864,7 @@ body.stickyactive {
 
 .features-block {
   max-width: 1170px;
-  padding: 60px 40px;
+  padding: 60px 30px;
   font-family: Roboto, 'Noto Sans KR', sans-serif;
   text-align: center;
 }
@@ -21663,6 +21663,10 @@ body.stickyactive {
     left: 0;
     right: 0;
     margin: 0 auto;
+  }
+
+  .piot_section .video-frame video{
+    width: 100%;
   }
 }
 

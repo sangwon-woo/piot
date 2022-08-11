@@ -20312,6 +20312,14 @@ body.stickyactive {
   min-height: 305px;
 }
 
+.two-lines {
+  margin-top: 27px;
+}
+
+.two-lineheight {
+line-height: 0.9;
+}
+
 .testimonials__heading-text {
   position: absolute;
   top: 55%;

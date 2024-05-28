@@ -1,1432 +1,1032 @@
 <!DOCTYPE html>
 <html lang="ko" class="sr js csstransitions">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Piot" />
-    <link rel="shortcut icon" href="./assets/favicon/web.svg" />
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <title>Piot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Piot" />
+  <link rel="shortcut icon" href="./assets/favicon/web.svg" />
 
-    <!--Open Graph-->
-    <!--http://ogp.me/-->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Piot" />
-    <meta property="og:title" content="Pioneering Technology" />
-    <meta
-      property="og:description"
-      content="파이엇은 로봇 솔루션을 제공하는 로봇 전문 기업입니다."
-    />
-    <meta property="og:image" content="./assets/images/main-image-1.jpg" />
-    <meta property="og:url" content="https://piot.co.kr" />
+  <title>Piot</title>
 
-    <!--Twitter Card-->
-    <!--https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started-->
-    <meta property="twitter:card" content="summary" />
-    <meta property="twitter:site" content="Piot" />
-    <meta property="twitter:title" content="Pioneering Technology" />
-    <meta
-      property="twitter:description"
-      content="파이엇은 로봇 솔루션을 제공하는 로봇 전문 기업입니다."
-    />
-    <meta property="twitter:image" content="./assets/images/main-image-1.jpg" />
-    <meta property="twitter:url" content="https://piot.co.kr" />
+  <!--Open Graph-->
+  <!--http://ogp.me/-->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Piot" />
+  <meta property="og:title" content="Pioneering Technology" />
+  <meta property="og:description" content="파이엇은 로봇 솔루션을 제공하는 로봇 전문 기업입니다." />
+  <meta property="og:image" content="./assets/images/main-image-1.jpg" />
+  <meta property="og:url" content="https://piot.co.kr" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+  <!--Twitter Card-->
+  <!--https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started-->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="Piot" />
+  <meta property="twitter:title" content="Pioneering Technology" />
+  <meta property="twitter:description" content="파이엇은 로봇 솔루션을 제공하는 로봇 전문 기업입니다." />
+  <meta property="twitter:image" content="./assets/images/main-image-1.jpg" />
+  <meta property="twitter:url" content="https://piot.co.kr" />
 
-    <!-- Font-aweseome CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
-    <link media="all" href="./assets/css/index.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      id="megamenu-css"
-      href="./assets/css/megamenu-css.css"
-      type="text/css"
-      media="all"
-    />
+  <!-- Font-aweseome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- jQuery JS -->
-    <script
-      type="text/javascript"
-      src="./assets/scripts/jquery.min.js"
-      id="jquery-js"
-    ></script>
+  <link media="all" href="./assets/css/index.css" rel="stylesheet" />
+  <link rel="stylesheet" id="megamenu-css" href="./assets/css/megamenu-css.css" type="text/css" media="all" />
 
-    <script type="text/javascript" id="wpml-cookie-js-extra">
-      /* <![CDATA[ */
-      var wpml_cookies = {
-        'wp-wpml_current_language': {
-          value: 'ko',
-          expires: 1,
-          path: '\/',
-        },
-      };
-      /* ]]> */
-    </script>
+  <!-- jQuery JS -->
+  <script type="text/javascript" src="./assets/scripts/jquery.min.js" id="jquery-js"></script>
 
-    <!-- Slick CSS -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
+  <script type="text/javascript" id="wpml-cookie-js-extra">
+    /* <![CDATA[ */
+    var wpml_cookies = {
+      'wp-wpml_current_language': {
+        value: 'ko',
+        expires: 1,
+        path: '\/',
+      },
+    };
+    /* ]]> */
+  </script>
 
-    <!-- Slick JS -->
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-  </head>
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
-  <!-- ########################################################################################################### -->
+  <!-- Slick JS -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
 
-  <body
-    data-rsssl="1"
-    class="home page mega-menu-primary"
-  >
-    <div id="main-animation">
-      <div class="inner">
-        <div
-          class="inner-content d-flex justify-content-center align-items-center"
-        >
-          <div class="logo-content p-0">
-            <img src="./assets/logo/piot_logo_white.svg" alt="" />
-          </div>
-          <div class="text-content p-0">
-            <span class="slogan-word1">Pioneer</span>
-            <span class="slogan-word2">The Future</span>
-            <span class="slogan-word3">.</span>
-          </div>
+<!-- ########################################################################################################### -->
+
+<body data-rsssl="1" class="home page mega-menu-primary">
+  <div id="main-animation">
+    <div class="inner">
+      <div class="inner-content d-flex justify-content-center align-items-center">
+        <div class="logo-content p-0">
+          <img src="./assets/logo/piot_logo_white.svg" alt="" />
+        </div>
+        <div class="text-content p-0">
+          <span class="slogan-word1">Pioneer</span>
+          <span class="slogan-word2">The Future</span>
+          <span class="slogan-word3">.</span>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="hfeed site" id="page">
-      <!-- ******************* The Navbar Area ******************* -->
-      <div id="wrapper-navbar">
-        <nav class="navbar navbar-expand-md navbar-light">
-          <div class="container">
-            <a class="navbar-brand" rel="home" href="index.html" title="Piot">
-              <img
-                width="40"
-                src="./assets/logo/piot_logo_black.svg"
-                alt="Piot"
-              />
-            </a>
-            <!-- end custom logo -->
+  <div class="hfeed site" id="page">
+    <!-- ******************* The Navbar Area ******************* -->
+    <div id="wrapper-navbar">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <a class="navbar-brand" rel="home" href="index.html" title="Piot">
+            <img width="40" src="./assets/logo/piot_logo_black.svg" alt="Piot" />
+          </a>
+          <!-- end custom logo -->
 
-            <div id="mega-menu-wrap-primary" class="mega-menu-wrap">
-              <ul
-                id="mega-menu-primary"
-                class="mega-menu max-mega-menu mega-menu-horizontal"
-                data-event="hover"
-                data-effect="disabled"
-                data-effect-speed="200"
-                data-effect-mobile="disabled"
-                data-effect-speed-mobile="0"
-                data-panel-width="#wrapper-navbar"
-                data-mobile-force-width="false"
-                data-second-click="go"
-                data-document-click="collapse"
-                data-vertical-behaviour="standard"
-                data-breakpoint="600"
-                data-unbind="true"
-                data-mobile-state="collapse_all"
-                data-hover-intent-timeout="300"
-                data-hover-intent-interval="100"
-              >
-                <li
-                  class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-4069"
-                  id="mega-menu-item-4069"
-                >
-                  <a
-                    class="mega-menu-link"
-                    href="./aboutus.html"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    tabindex="0"
-                  >
-                    Company
-                    <span
-                      class="mega-indicator"
-                      data-has-click-event="true"
-                    ></span>
-                  </a>
-                  <ul
-                    class="mega-sub-menu"
-                    style="width: 1691px; left: -982.75px"
-                  >
-                    <li class="mega-menu-row" id="mega-menu-4069-0">
-                      <ul class="mega-sub-menu">
-                        <li
-                          class="mega-menu-column mega-menu-columns-4-of-12"
-                          id="mega-menu-4069-0-0"
-                        >
-                          <ul class="mega-sub-menu">
-                            <li
-                              class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-17"
-                              id="mega-menu-item-magmenuitem_widget-17"
-                            >
-                              <a class="megamenu_link" href="./aboutus.html">
-                                <h4 class="mega-block-title">About Us</h4>
-                                <p>
-                                  파이엇이 만들어갈 새로운 세상을 소개합니다
-                                </p>
-                                <div class="mega-image">
-                                  <img
-                                    src="./assets/images/aboutus-mega-menu.jpg"
-                                    alt="About Us Image"
-                                  />
-                                </div>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li
-                          class="mega-menu-column mega-menu-columns-4-of-12"
-                          id="mega-menu-4069-0-1"
-                        >
-                          <ul class="mega-sub-menu">
-                            <li
-                              class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-19"
-                              id="mega-menu-item-magmenuitem_widget-19"
-                            >
-                              <a class="megamenu_link" href="./news/news.html">
-                                <h4 class="mega-block-title">News</h4>
-                                <p>파이엇에 대한 뉴스 및 소식을 알아보세요</p>
-                                <div class="mega-image">
-                                  <img
-                                    src="./assets/images/news-mega-menu.jpg"
-                                    alt="News Image"
-                                  />
-                                </div>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+          <div id="mega-menu-wrap-primary" class="mega-menu-wrap">
+            <ul id="mega-menu-primary" class="mega-menu max-mega-menu mega-menu-horizontal" data-event="hover"
+              data-effect="disabled" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0"
+              data-panel-width="#wrapper-navbar" data-mobile-force-width="false" data-second-click="go"
+              data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="600" data-unbind="true"
+              data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100">
+              <li
+                class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-4069"
+                id="mega-menu-item-4069">
+                <a class="mega-menu-link" href="./aboutus.html" aria-haspopup="true" aria-expanded="false" tabindex="0">
+                  Company
+                  <span class="mega-indicator" data-has-click-event="true"></span>
+                </a>
+                <ul class="mega-sub-menu" style="width: 1691px; left: -982.75px">
+                  <li class="mega-menu-row" id="mega-menu-4069-0">
+                    <ul class="mega-sub-menu">
+                      <li class="mega-menu-column mega-menu-columns-4-of-12" id="mega-menu-4069-0-0">
+                        <ul class="mega-sub-menu">
+                          <li
+                            class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-17"
+                            id="mega-menu-item-magmenuitem_widget-17">
+                            <a class="megamenu_link" href="./aboutus.html">
+                              <h4 class="mega-block-title">About Us</h4>
+                              <p>
+                                파이엇이 만들어갈 새로운 세상을 소개합니다
+                              </p>
+                              <div class="mega-image">
+                                <img src="./assets/images/aboutus-mega-menu.jpg" alt="About Us Image" />
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-column mega-menu-columns-4-of-12" id="mega-menu-4069-0-1">
+                        <ul class="mega-sub-menu">
+                          <li
+                            class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-19"
+                            id="mega-menu-item-magmenuitem_widget-19">
+                            <a class="megamenu_link" href="./news/news.html">
+                              <h4 class="mega-block-title">News</h4>
+                              <p>파이엇에 대한 뉴스 및 소식을 알아보세요</p>
+                              <div class="mega-image">
+                                <img src="./assets/images/news-mega-menu.jpg" alt="News Image" />
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Company Menu -->
+
+              <li
+                class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-4071"
+                id="mega-menu-item-4071">
+                <a class="mega-menu-link" href="./products/products.html" aria-haspopup="true" aria-expanded="false"
+                  tabindex="0">
+                  Products
+                  <span class="mega-indicator" data-has-click-event="true"></span>
+                </a>
+                <ul class="mega-sub-menu" style="width: 1691px; left: -982.75px">
+                  <li class="mega-menu-row mega-tech-menu tech-menu" id="mega-menu-4071-0">
+                    <ul class="mega-sub-menu">
+                      <li class="mega-menu-column mega-menu-columns-3-of-12" id="mega-menu-4071-0-0">
+                        <ul class="mega-sub-menu">
+                          <li
+                            class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-23"
+                            id="mega-menu-item-magmenuitem_widget-23">
+                            <a class="megamenu_link" href="./products/products-1.html">
+                              <h4 class="mega-block-title">SENDY</h4>
+                              <div class="mega-image">
+                                <img src="./assets/images/선반형-0.jpg" alt="선반형 이미지" />
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-column mega-menu-columns-3-of-12" id="mega-menu-4071-0-1">
+                        <ul class="mega-sub-menu">
+                          <li
+                            class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-26"
+                            id="mega-menu-item-magmenuitem_widget-26">
+                            <a class="megamenu_link" href="./products/products-2.html">
+                              <h4 class="mega-block-title" style="color: transparent">
+                                SENDY
+                              </h4>
+                              <div class="mega-image">
+                                <img src="./assets/images/서랍형-0.jpg" alt="product-2" />
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-column mega-menu-columns-3-of-12" id="mega-menu-4071-0-2">
+                        <ul class="mega-sub-menu">
+                          <li
+                            class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-25"
+                            id="mega-menu-item-magmenuitem_widget-25">
+                            <a class="megamenu_link" href="./products/products-3.html">
+                              <h4 class="mega-block-title">STERLA</h4>
+                              <div class="mega-image">
+                                <img src="./assets/images/uvc-0.jpg" alt="product-3" />
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-column mega-menu-columns-3-of-12" id="mega-menu-4071-0-3">
+                        <ul class="mega-sub-menu">
+                          <li
+                            class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-24"
+                            id="mega-menu-item-magmenuitem_widget-24">
+                            <a class="megamenu_link" href="./products/products-4.html">
+                              <h4 class="mega-block-title" style="color: transparent">
+                                STERLA
+                              </h4>
+                              <div class="mega-image">
+                                <img src="./assets/images/플라즈마-0.jpg" alt="Plasma Image" />
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <!-- End Products Menu -->
+
+              <li
+                class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-4069"
+                id="mega-menu-item-4069">
+                <a class="mega-menu-link" href="./services/services.html" aria-haspopup="true" aria-expanded="false"
+                  tabindex="0">
+                  Services
+                  <span class="mega-indicator" data-has-click-event="true"></span>
+                </a>
+                <ul class="mega-sub-menu" style="width: 1691px; left: -982.75px">
+                  <li class="mega-menu-row" id="mega-menu-4069-0">
+                    <ul class="mega-sub-menu">
+                      <li class="mega-menu-column mega-menu-columns-4-of-12" id="mega-menu-4069-0-0">
+                        <ul class="mega-sub-menu">
+                          <li
+                            class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-17"
+                            id="mega-menu-item-magmenuitem_widget-17">
+                            <a class="megamenu_link" href="./services/services-odm.html">
+                              <h4 class="mega-block-title">Robot ODM</h4>
+                              <p>
+                                고객이 필요한 서비스 로봇을 개발해주는
+                                서비스로서 단계별 체계적인 관리 시스템을 통해
+                                완성도 높은 로봇을 제공합니다
+                              </p>
+                              <div class="mega-image">
+                                <img src="./assets/images/services-mega-menu-left.jpg" alt="Robot ODM Image" />
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-column mega-menu-columns-4-of-12" id="mega-menu-4069-0-1">
+                        <ul class="mega-sub-menu">
+                          <li
+                            class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-19"
+                            id="mega-menu-item-magmenuitem_widget-19">
+                            <a class="megamenu_link" href="./services/services-consulting.html">
+                              <h4 class="mega-block-title">
+                                Robot Consulting
+                              </h4>
+                              <p>
+                                축적된 전문성과 경험을 토대로 고객에 맞는
+                                컨설팅 서비스를 제공합니다
+                              </p>
+                              <div class="mega-image">
+                                <img src="./assets/images/services-mega-menu-right.jpg" alt="Robot Consulting Image" />
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <!-- End services Menu -->
+            </ul>
+          </div>
+
+          <div class="hamburger-wrapper">
+            <div class="hamburger hamburger--spin js-hamburger">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container -->
+      </nav>
+      <!-- .site-navigation -->
+    </div>
+    <!-- #wrapper-navbar end -->
+
+    <!-- Offcanvas Section -->
+    <div class="offcanvas-content justify-content-center align-items-center">
+      <div class="offcanvas-main container">
+        <div class="row justify-content-center">
+          <div class="col-8 col-md-10 col-lg-5 offset-md-1 offset-lg-0">
+            <div class="menu-offcanvas-menu-englisch-container">
+              <ul id="off-main-menu" class="menu">
+                <li id="menu-item-4074" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4074">
+                  <a href="./aboutus.html"> Company </a>
                 </li>
-                <!-- End Company Menu -->
-
-                <li
-                  class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-4071"
-                  id="mega-menu-item-4071"
-                >
-                  <a
-                    class="mega-menu-link"
-                    href="./products/products.html"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    tabindex="0"
-                  >
-                    Products
-                    <span
-                      class="mega-indicator"
-                      data-has-click-event="true"
-                    ></span>
-                  </a>
-                  <ul
-                    class="mega-sub-menu"
-                    style="width: 1691px; left: -982.75px"
-                  >
-                    <li
-                      class="mega-menu-row mega-tech-menu tech-menu"
-                      id="mega-menu-4071-0"
-                    >
-                      <ul class="mega-sub-menu">
-                        <li
-                          class="mega-menu-column mega-menu-columns-3-of-12"
-                          id="mega-menu-4071-0-0"
-                        >
-                          <ul class="mega-sub-menu">
-                            <li
-                              class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-23"
-                              id="mega-menu-item-magmenuitem_widget-23"
-                            >
-                              <a
-                                class="megamenu_link"
-                                href="./products/products-1.html"
-                              >
-                                <h4 class="mega-block-title">SENDY</h4>
-                                <div class="mega-image">
-                                  <img
-                                    src="./assets/images/선반형-0.jpg"
-                                    alt="선반형 이미지"
-                                  />
-                                </div>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li
-                          class="mega-menu-column mega-menu-columns-3-of-12"
-                          id="mega-menu-4071-0-1"
-                        >
-                          <ul class="mega-sub-menu">
-                            <li
-                              class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-26"
-                              id="mega-menu-item-magmenuitem_widget-26"
-                            >
-                              <a
-                                class="megamenu_link"
-                                href="./products/products-2.html"
-                              >
-                                <h4
-                                  class="mega-block-title"
-                                  style="color: transparent"
-                                >
-                                  SENDY
-                                </h4>
-                                <div class="mega-image">
-                                  <img
-                                    src="./assets/images/서랍형-0.jpg"
-                                    alt="product-2"
-                                  />
-                                </div>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li
-                          class="mega-menu-column mega-menu-columns-3-of-12"
-                          id="mega-menu-4071-0-2"
-                        >
-                          <ul class="mega-sub-menu">
-                            <li
-                              class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-25"
-                              id="mega-menu-item-magmenuitem_widget-25"
-                            >
-                              <a
-                                class="megamenu_link"
-                                href="./products/products-3.html"
-                              >
-                                <h4 class="mega-block-title">STERLA</h4>
-                                <div class="mega-image">
-                                  <img
-                                    src="./assets/images/uvc-0.jpg"
-                                    alt="product-3"
-                                  />
-                                </div>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li
-                          class="mega-menu-column mega-menu-columns-3-of-12"
-                          id="mega-menu-4071-0-3"
-                        >
-                          <ul class="mega-sub-menu">
-                            <li
-                              class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-24"
-                              id="mega-menu-item-magmenuitem_widget-24"
-                            >
-                              <a
-                                class="megamenu_link"
-                                href="./products/products-4.html"
-                              >
-                                <h4
-                                  class="mega-block-title"
-                                  style="color: transparent"
-                                >
-                                  STERLA
-                                </h4>
-                                <div class="mega-image">
-                                  <img
-                                    src="./assets/images/플라즈마-0.jpg"
-                                    alt="Plasma Image"
-                                  />
-                                </div>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                <li id="menu-item-4073" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4073">
+                  <a href="./products/products.html"> Products </a>
                 </li>
-                <!-- End Products Menu -->
-
-                <li
-                  class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-grid mega-menu-item-4069"
-                  id="mega-menu-item-4069"
-                >
-                  <a
-                    class="mega-menu-link"
-                    href="./services/services.html"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    tabindex="0"
-                  >
-                    Services
-                    <span
-                      class="mega-indicator"
-                      data-has-click-event="true"
-                    ></span>
-                  </a>
-                  <ul
-                    class="mega-sub-menu"
-                    style="width: 1691px; left: -982.75px"
-                  >
-                    <li class="mega-menu-row" id="mega-menu-4069-0">
-                      <ul class="mega-sub-menu">
-                        <li
-                          class="mega-menu-column mega-menu-columns-4-of-12"
-                          id="mega-menu-4069-0-0"
-                        >
-                          <ul class="mega-sub-menu">
-                            <li
-                              class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-17"
-                              id="mega-menu-item-magmenuitem_widget-17"
-                            >
-                              <a
-                                class="megamenu_link"
-                                href="./services/services-odm.html"
-                              >
-                                <h4 class="mega-block-title">Robot ODM</h4>
-                                <p>
-                                  고객이 필요한 서비스 로봇을 개발해주는
-                                  서비스로서 단계별 체계적인 관리 시스템을 통해
-                                  완성도 높은 로봇을 제공합니다
-                                </p>
-                                <div class="mega-image">
-                                  <img
-                                    src="./assets/images/services-mega-menu-left.jpg"
-                                    alt="Robot ODM Image"
-                                  />
-                                </div>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li
-                          class="mega-menu-column mega-menu-columns-4-of-12"
-                          id="mega-menu-4069-0-1"
-                        >
-                          <ul class="mega-sub-menu">
-                            <li
-                              class="mega-menu-item mega-menu-item-type-widget magmenuitem_widget mega-menu-item-magmenuitem_widget-19"
-                              id="mega-menu-item-magmenuitem_widget-19"
-                            >
-                              <a
-                                class="megamenu_link"
-                                href="./services/services-consulting.html"
-                              >
-                                <h4 class="mega-block-title">
-                                  Robot Consulting
-                                </h4>
-                                <p>
-                                  축적된 전문성과 경험을 토대로 고객에 맞는
-                                  컨설팅 서비스를 제공합니다
-                                </p>
-                                <div class="mega-image">
-                                  <img
-                                    src="./assets/images/services-mega-menu-right.jpg"
-                                    alt="Robot Consulting Image"
-                                  />
-                                </div>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
+                <li id="menu-item-4075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4075">
+                  <a href="./services/services.html"> Services </a>
                 </li>
-                <!-- End services Menu -->
               </ul>
             </div>
-
-            <div class="hamburger-wrapper">
-              <div class="hamburger hamburger--spin js-hamburger">
-                <div class="hamburger-box">
-                  <div class="hamburger-inner"></div>
-                </div>
-              </div>
-            </div>
           </div>
-          <!-- .container -->
-        </nav>
-        <!-- .site-navigation -->
-      </div>
-      <!-- #wrapper-navbar end -->
 
-      <!-- Offcanvas Section -->
-      <div class="offcanvas-content justify-content-center align-items-center">
-        <div class="offcanvas-main container">
-          <div class="row justify-content-center">
-            <div class="col-8 col-md-10 col-lg-5 offset-md-1 offset-lg-0">
-              <div class="menu-offcanvas-menu-englisch-container">
-                <ul id="off-main-menu" class="menu">
-                  <li
-                    id="menu-item-4074"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4074"
-                  >
-                    <a href="./aboutus.html"> Company </a>
-                  </li>
-                  <li
-                    id="menu-item-4073"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4073"
-                  >
-                    <a href="./products/products.html"> Products </a>
-                  </li>
-                  <li
-                    id="menu-item-4075"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4075"
-                  >
-                    <a href="./services/services.html"> Services </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div
-              class="col-8 col-md-10 col-lg-4 offset-md-1 offset-lg-0 mt-4 mt-lg-1"
-            >
-              <div class="menu-offcanvas-secondary-menu-englisch-container">
-                <ul id="off-secondary-menu" class="menu">
-                  <li
-                    id="menu-item-4077"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4077"
-                  >
-                    <a href="./news/news.html">News</a>
-                  </li>
-                  <li
-                    id="menu-item-4265"
-                    class="mb-4 menu-item menu-item-type-post_type menu-item-object-page menu-item-4265"
-                  >
-                    <a href="./contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
+          <div class="col-8 col-md-10 col-lg-4 offset-md-1 offset-lg-0 mt-4 mt-lg-1">
+            <div class="menu-offcanvas-secondary-menu-englisch-container">
+              <ul id="off-secondary-menu" class="menu">
+                <li id="menu-item-4077" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4077">
+                  <a href="./news/news.html">News</a>
+                </li>
+                <li id="menu-item-4265"
+                  class="mb-4 menu-item menu-item-type-post_type menu-item-object-page menu-item-4265">
+                  <a href="./contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-
-        <div class="offcanvas-logo bottom-logo container">
-          <img src="./assets/logo/piot_logo_black.svg" alt="piot" />
-        </div>
       </div>
-      <!-- Offcanvas Section End -->
 
-      <!-- ################################################################################################################## -->
-      <div class="wrapper">
-        <div class="" id="content">
-          <div id="primary">
-            <main class="site-main" id="main" role="main">
-              <article
-                class="page type-page status-publish hentry"
-              >
-                <div class="entry-content">
-                  <!-- Welcome Section = Video + Headline -->
-                  <div class="mag_hero piot_section">
-                    <div class="container-fluid">
-                      <div class="row no-gutters">
-                        <div
-                          class="header_hero d-flex justify-content-start align-items-center hero-video hero70opt1"
-                          style="margin-top: -100px"
-                        >
-                          <!-- Main Image -->
-                          <div class="main-image"></div>
+      <div class="offcanvas-logo bottom-logo container">
+        <img src="./assets/logo/piot_logo_black.svg" alt="piot" />
+      </div>
+    </div>
+    <!-- Offcanvas Section End -->
 
-                          <!-- Main Header Text -->
-                          <div
-                            class="header_hero__content text-start offset-0 offset-sm-1 offset-lg-2 offset-xxl-3"
-                          >
-                            <p
-                              class="text-charcoal mb-1 text-uppercase who-we-are"
-                            >
-                              Who We are
+    <!-- ################################################################################################################## -->
+    <div class="wrapper">
+      <div class="" id="content">
+        <div id="primary">
+          <main class="site-main" id="main" role="main">
+            <article class="page type-page status-publish hentry">
+              <div class="entry-content">
+                <!-- Welcome Section = Video + Headline -->
+                <div class="mag_hero piot_section">
+                  <div class="container-fluid">
+                    <div class="row no-gutters">
+                      <div class="header_hero d-flex justify-content-start align-items-center hero-video hero70opt1"
+                        style="margin-top: -100px">
+                        <!-- Main Image -->
+                        <div class="main-image"></div>
+
+                        <!-- Main Header Text -->
+                        <div class="header_hero__content text-start offset-0 offset-sm-1 offset-lg-2 offset-xxl-3">
+                          <p class="text-charcoal mb-1 text-uppercase who-we-are">
+                            Who We are
+                          </p>
+
+                          <h1 class="header_hero__headline text-very-big text-charcoal mb-3 mb-lg-3">
+                            Advanced In <br />
+                            Robotics
+                          </h1>
+
+                          <div class="header_hero__text text-charcoal text-h5">
+                            <p>
+                              파이엇은 로봇 ODM 및 미래 기술 연구
+                              전문회사입니다. <br />
+                              현재 국내 최고 로봇 개발 인프라를 보유하고
+                              있으며 <br />
+                              일상과 로봇을 연결하는 로봇 서비스 솔루션을
+                              제공합니다.<br />
+                              일상의 무한한 로봇화, 파이엇이 시작합니다.
                             </p>
-
-                            <h1
-                              class="header_hero__headline text-very-big text-charcoal mb-3 mb-lg-3"
-                            >
-                              Advanced In <br />
-                              Robotics
-                            </h1>
-
-                            <div
-                              class="header_hero__text text-charcoal text-h5"
-                            >
-                              <p>
-                                파이엇은 로봇 ODM 및 미래 기술 연구
-                                전문회사입니다. <br />
-                                현재 국내 최고 로봇 개발 인프라를 보유하고
-                                있으며 <br />
-                                일상과 로봇을 연결하는 로봇 서비스 솔루션을
-                                제공합니다.<br />
-                                일상의 무한한 로봇화, 파이엇이 시작합니다.
-                              </p>
-                            </div>
-                            <!-- <div class="header_hero__text text-charcoal text-h5 mb-3">
+                          </div>
+                          <!-- <div class="header_hero__text text-charcoal text-h5 mb-3">
 														<p>
 
 														</p>
 													</div> -->
-                            <a
-                              href="#main-slogan"
-                              class="mag_button mag_button__outline"
-                            >
-                              View more
+                          <a href="#main-slogan" class="mag_button mag_button__outline">
+                            View more
+                          </a>
+                        </div>
+
+                        <!--Header Hero End -->
+                        <a href="#headline" id="hero_down" class="hero_down"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Welcome Section End -->
+
+                <!-- ================= SLOGAN & VISION ================= -->
+                <!-- Slogan -->
+                <div class="piot_section_headline option6 piot_section mag-fade-up" id="headline">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-8 offset-lg-2 text-center">
+                        <div class="smart-textarea">
+                          <div class="smart-textarea_text" data-sr-id="1">
+                            <h3>
+                              <p class="main-slogan" id="main-slogan">
+                                We are enthusiastic<br />
+                                about robotics
+                              </p>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Vision -->
+                <div class="mag_kacheln piot_section mag-fade-up" style="padding-top: 0px; padding-bottom: 70px">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-3 mag-fade-up">
+                        <div class="home-kacheln mb-4 mb-lg-0">
+                          <div class="home-kacheln_img">
+                            <a href="#none">
+                              <img src="./assets/images/vision1.jpg" alt="" class="fluid-img" />
                             </a>
                           </div>
-
-                          <!--Header Hero End -->
-                          <a
-                            href="#headline"
-                            id="hero_down"
-                            class="hero_down"
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Welcome Section End -->
-
-                  <!-- ================= SLOGAN & VISION ================= -->
-                  <!-- Slogan -->
-                  <div
-                    class="piot_section_headline option6 piot_section mag-fade-up"
-                    id="headline"
-                  >
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-8 offset-lg-2 text-center">
-                          <div class="smart-textarea">
-                            <div class="smart-textarea_text" data-sr-id="1">
-                              <h3>
-                                <p class="main-slogan" id="main-slogan">
-                                  We are enthusiastic<br />
-                                  about robotics
-                                </p>
-                              </h3>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Vision -->
-                  <div
-                    class="mag_kacheln piot_section mag-fade-up"
-                    style="padding-top: 0px; padding-bottom: 70px"
-                  >
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-3 mag-fade-up">
-                          <div class="home-kacheln mb-4 mb-lg-0">
-                            <div class="home-kacheln_img">
-                              <a href="#none">
-                                <img
-                                  src="./assets/images/vision1.jpg"
-                                  alt=""
-                                  class="fluid-img"
-                                />
-                              </a>
-                            </div>
-                            <h4 class="  my-2">Best Solutions</h4>
-                            <div class="home-kacheln-text">
-                              <p class="vision-text">
-                                ‘사람을 위한 기술’이란 철학을 근간으로 일상의
-                                편리화를 위해 고객에게 최고의 로봇 솔루션을
-                                제공합니다
-                              </p>
-                              <!-- <a class="mehr_link" href="#none">
+                          <h4 class="  my-2">Best Solutions</h4>
+                          <div class="home-kacheln-text">
+                            <p class="vision-text">
+                              ‘사람을 위한 기술’이란 철학을 근간으로 일상의
+                              편리화를 위해 고객에게 최고의 로봇 솔루션을
+                              제공합니다
+                            </p>
+                            <!-- <a class="mehr_link" href="#none">
 															more ›
 														</a> -->
-                            </div>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-lg-3 mag-fade-up">
-                          <div class="home-kacheln mb-4 mb-lg-0">
-                            <div class="home-kacheln_img">
-                              <a href="#none">
-                                <img
-                                  src="./assets/images/vision2.jpg"
-                                  alt=""
-                                  class="fluid-img"
-                                />
-                              </a>
-                            </div>
-                            <h4 class="  my-2">Design Thinking</h4>
-                            <div class="home-kacheln-text">
-                              <p class="vision-text">
-                                고객의 복잡해진 문제에 전통적인 방법론인
-                                비즈니스적 접근이나 논리적 접근으로 대응하기
-                                어려워지면서 창의적인 방식으로 솔루션을 찾을
-                                필요성이 발생합니다. 철저하게 고객의 시선에서
-                                솔루션을 찾아가도록 하는 단계적 방법론인 ‘디자인
-                                씽킹’을 통해 로봇 솔루션을 제공합니다
-                              </p>
-                              <!-- <a class="mehr_link" href="#none">
+                      <div class="col-lg-3 mag-fade-up">
+                        <div class="home-kacheln mb-4 mb-lg-0">
+                          <div class="home-kacheln_img">
+                            <a href="#none">
+                              <img src="./assets/images/vision2.jpg" alt="" class="fluid-img" />
+                            </a>
+                          </div>
+                          <h4 class="  my-2">Design Thinking</h4>
+                          <div class="home-kacheln-text">
+                            <p class="vision-text">
+                              고객의 복잡해진 문제에 전통적인 방법론인
+                              비즈니스적 접근이나 논리적 접근으로 대응하기
+                              어려워지면서 창의적인 방식으로 솔루션을 찾을
+                              필요성이 발생합니다. 철저하게 고객의 시선에서
+                              솔루션을 찾아가도록 하는 단계적 방법론인 ‘디자인
+                              씽킹’을 통해 로봇 솔루션을 제공합니다
+                            </p>
+                            <!-- <a class="mehr_link" href="#none">
 															more ›
 														</a> -->
-                            </div>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-lg-3 mag-fade-up">
-                          <div class="home-kacheln mb-4 mb-lg-0">
-                            <div class="home-kacheln_img">
-                              <a href="#none">
-                                <img
-                                  src="./assets/images/vision3.jpg"
-                                  alt=""
-                                  class="fluid-img"
-                                />
-                              </a>
-                            </div>
-                            <h4 class="  my-2">Passion & Open-mind</h4>
-                            <div class="home-kacheln-text">
-                              <p class="vision-text">
-                                강한 열정과 끈기 있는 승부근성을 가지고 미래
-                                기술 개발을 위해 노력합니다. 우리가 가지고 있는
-                                모든 글로벌 네트워크와 경험이 많은 노하우를
-                                활용하여 고객의 입장에서 문제를 해결하는 유연한
-                                사고방식을 갖고 있습니다
-                              </p>
-                              <!-- <a class="mehr_link" href="#none">
+                      <div class="col-lg-3 mag-fade-up">
+                        <div class="home-kacheln mb-4 mb-lg-0">
+                          <div class="home-kacheln_img">
+                            <a href="#none">
+                              <img src="./assets/images/vision3.jpg" alt="" class="fluid-img" />
+                            </a>
+                          </div>
+                          <h4 class="  my-2">Passion & Open-mind</h4>
+                          <div class="home-kacheln-text">
+                            <p class="vision-text">
+                              강한 열정과 끈기 있는 승부근성을 가지고 미래
+                              기술 개발을 위해 노력합니다. 우리가 가지고 있는
+                              모든 글로벌 네트워크와 경험이 많은 노하우를
+                              활용하여 고객의 입장에서 문제를 해결하는 유연한
+                              사고방식을 갖고 있습니다
+                            </p>
+                            <!-- <a class="mehr_link" href="#none">
 															more ›
 														</a> -->
-                            </div>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-lg-3 mag-fade-up">
-                          <div class="home-kacheln mb-4 mb-lg-0">
-                            <div class="home-kacheln_img">
-                              <a href="#none">
-                                <img
-                                  src="./assets/images/vision4.jpg"
-                                  alt=""
-                                  class="fluid-img"
-                                />
-                              </a>
-                            </div>
-                            <h4 class="  my-2">Execution</h4>
-                            <div class="home-kacheln-text">
-                              <p class="vision-text">
-                                단순하게 분석 결과와 대안만을 제시하는 서비스가
-                                아닌 제시한 결과가 실행 및 구체화 될 때까지
-                                끊임없이 고객과 논의하고 협업하는 것이 파이엇을
-                                이끄는 가치이자 원동력입니다
-                              </p>
-                              <!-- <a class="mehr_link" href="#none">
+                      <div class="col-lg-3 mag-fade-up">
+                        <div class="home-kacheln mb-4 mb-lg-0">
+                          <div class="home-kacheln_img">
+                            <a href="#none">
+                              <img src="./assets/images/vision4.jpg" alt="" class="fluid-img" />
+                            </a>
+                          </div>
+                          <h4 class="  my-2">Execution</h4>
+                          <div class="home-kacheln-text">
+                            <p class="vision-text">
+                              단순하게 분석 결과와 대안만을 제시하는 서비스가
+                              아닌 제시한 결과가 실행 및 구체화 될 때까지
+                              끊임없이 고객과 논의하고 협업하는 것이 파이엇을
+                              이끄는 가치이자 원동력입니다
+                            </p>
+                            <!-- <a class="mehr_link" href="#none">
 															more ›
 														</a> -->
-                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <!-- ================= SLOGAN & VISION END ================= -->
+                </div>
+                <!-- ================= SLOGAN & VISION END ================= -->
 
-                  <!-- ================= PRODUCTS ================= -->
-                  <!-- Products Title -->
-                  <div class="piot_section_title piot_section pb-0 piotgreybg">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <div class="smart-textarea">
-                            <h2
-                              id="Products"
-                              class="text-cap text-uppercase mb-4 mag-fade-left"
-                            >
-                              Products
-                            </h2>
-                          </div>
+                <!-- ================= PRODUCTS ================= -->
+                <!-- Products Title -->
+                <div class="piot_section_title piot_section pb-0 piotgreybg">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="smart-textarea">
+                          <h2 id="Products" class="text-cap text-uppercase mb-4 mag-fade-left">
+                            Products
+                          </h2>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
 
-                  <div
-                    class="mag_kacheln piot_section piotgreybg"
-                    style="padding-top: 25px; padding-bottom: 100px"
-                  >
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-lg-6 col-sm-12 col-xs-12 mag-fade-up">
-                          <div
-                            class="mb-1 mb-xl-0 cases card border-0 text-white text-center cases_2"
-                          >
-                            <img
-                              src="./assets/images/products-left.jpg"
-                              alt="1600x1600"
-                              class="card-img mg-fluid img-thumbnail card-1"
-                            />
-                            <div class="justify-content-center">
-                              <div
-                                class="card-img-overlay d-flex align-items-center text-white h-100"
-                              >
-                                <div class="w-100 py-5">
-                                  <h6
-                                    class="card-text text-heading text-cap text-white"
-                                  >
-                                    Delivery Robots
-                                  </h6>
-                                  <h2
-                                    class="card-title text-headline text-white text-h2 fw-bold"
-                                  >
-                                    SENDY
-                                  </h2>
-                                  <a
-                                    href="./products/products.html"
-                                    class="mag_button text-center bg-white text-black mag_button__outline mag_button__arrow mag_button_ondark mt-3 border-white"
-                                  >
-                                    more
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-12 col-xs-12 mag-fade-up">
-                          <div
-                            class="mb-1 mb-xl-0 cases card border-0 text-white text-center cases_2"
-                          >
-                            <img
-                              src="./assets/images/products-right.jpg"
-                              alt="1600x1600"
-                              class="card-img mg-fluid img-thumbnail"
-                            />
-                            <div class="justify-content-center">
-                              <div
-                                class="card-img-overlay d-flex align-items-center text-white h-100"
-                              >
-                                <div class="w-100 py-5">
-                                  <h6
-                                    class="card-text text-heading text-cap text-white"
-                                  >
-                                    Disinfection Robots
-                                  </h6>
-                                  <h2
-                                    class="card-title text-headline text-white text-h2 fw-bold"
-                                  >
-                                    STERLA
-                                  </h2>
-                                  <a
-                                    href="./products/products.html"
-                                    class="mag_button text-center bg-white text-black mag_button__outline mag_button__arrow mag_button_ondark mt-3 border-white"
-                                  >
-                                    more
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- ================= PRODUCTS END ================= -->
-
-                  <!-- ================= REFERENCES ================= -->
-                  <!-- Reference Title -->
-                  <div class="piot_section_title piot_section pb-5">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <div class="smart-textarea">
-                            <h2
-                              id="references"
-                              class="text-cap text-uppercase mb-4 mag-fade-left"
-                            >
-                              References
-                            </h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Reference Content -->
-                  <div class="mag_clients piot_section">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-10 offset-md-1 mag-fade-up">
-                          <div class="row align-items-center">
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/LG.png" alt="LG Logo" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/doosan.png" alt="Doosan Logo" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/KT.png" alt="KT Logo" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/autoever.png" alt="Autoever Logo" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/kcc.png" alt="KCC Logo" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/aptner.png" alt="Aptner Logo" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/severance.png" alt="Severance Hospital Logo" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/deepblue.png" alt="" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/sria.png" alt="" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/changhong.png" alt="" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3"
-                            >
-                              <img src="./assets/logo/imria.png" alt="" />
-                            </div>
-                            <div
-                              class="col-md-4 col-lg-2 client_logo text-center mb-2 mt-2"
-                            >
-                              <img src="./assets/logo/spiritant.png" alt="" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- ================= REFERENCES END ================= -->
-
-
-                  <!-- ================= BRAND FILM================= -->
-                  <!-- Brand Film Title -->
-                  <div class="piot_section_title piot_section pb-5">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <div class="smart-textarea">
-                            <h2
-                              id="references"
-                              class="text-cap text-uppercase mb-4 mag-fade-left"
-                            >
-                              BRAND FILM
-                            </h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Brand Film Content -->
-                  <div class="piot_section py-5">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-12">
-                          <div class="video-frame text-center">
-                            <video autoplay loop muted controls >
-                              <source src="./assets/videos/piot_brand_film.mp4" type="video/mp4" />
-                            </video>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- ================= PROJECTS ================= -->
-                  <!-- Projects Title -->
-                  <div class="piot_section_title piot_section mag-fade-left">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <div class="smart-textarea">
-                            <h2
-                              id="projects"
-                              class="text-cap text-uppercase mb-4"
-                            >
-                              Projects
-                            </h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Projects Content -->
-                  <div
-                    class="mag_kacheln piot_section"
-                    style="padding-top: 25px"
-                  >
-                    <div class="container">
-                      <div class="row">
-                        <!-- First Project -->
-                        <div class="col-lg-6 col-sm-12 col-xs-12 mag-fade-up">
-                          <div
-                            class="mb-4 cases card border-0 text-white text-center cases_2"
-                          >
-                            <img
-                              src="./assets/images/donation_campaign.jpg"
-                              alt="donation_campaign"
-                              class="card-img mg-fluid img-thumbnail"
-                            />
-                            <div class="justify-content-center">
-                              <div
-                                class="card-img-overlay d-flex align-items-center text-white h-100"
-                              >
-                                <div class="w-100 py-10">
-                                  <h2
-                                    class="card-title text-headline text-white text-h2 fw-bold two-lineheight"
-                                  >
-                                    LG CLOi UV-C Bot <br>Donation Campaign
-                                  </h2>
-                                  <div class="text-white two-lines"></div>
-                                  <a
-                                    href="./projects/lg-cloi-donation.html"
-                                    class="mag_button mag_button__outline mag_button__arrow mag_button_ondark text-center"
-                                  >
-                                    more
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- Second Project -->
-                        <div class="col-lg-6 col-sm-12 col-xs-12 mag-fade-up">
-                          <div
-                            class="mb-4 cases card border-0 text-white text-center cases_2"
-                          >
-                            <img
-                              src="./assets/images/uvc-right.jpg"
-                              alt="1600x520"
-                              class="card-img mg-fluid img-thumbnail"
-                            />
-                            <div class="justify-content-center">
-                              <div
-                                class="card-img-overlay d-flex align-items-center text-white h-100"
-                              >
-                                <div class="w-100 py-10">
-                                  <h2
-                                    class="card-title mb-2 text-headline text-white text-h2 fw-bold"
-                                  >
-                                    LG CLOi GuideBot
-                                  </h2>
-                                  <div class="text-white mb-3"></div>
-                                  <a
-                                    href="./projects/lg-cloi-guide.html"
-                                    class="mag_button mag_button__outline mag_button__arrow mag_button_ondark text-center"
-                                  >
-                                    more
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- Third Project -->
-                        <div class="col-lg-6 col-sm-12 col-xs-12 mag-fade-up">
-                          <div
-                            class="mb-4 cases card border-0 text-white text-center cases_2"
-                          >
-                            <img
-                              src="./assets/images/해밀중학교.jpg"
-                              alt="692x389"
-                              class="card-img mg-fluid img-thumbnail"
-                            />
-                            <div class="justify-content-center">
-                              <div
-                                class="card-img-overlay d-flex align-items-center text-white h-100"
-                              >
-                                <div class="w-100 py-10">
-                                  <h2
-                                    class="card-title mb-2 text-headline text-white text-h2 fw-bold"
-                                  >
-                                    LG CLOi UV-C Bot POC
-                                  </h2>
-                                  <div class="text-white mb-3"></div>
-                                  <a
-                                    href="./projects/lg-cloi-uvc.html"
-                                    class="mag_button mag_button__outline mag_button__arrow mag_button_ondark text-center"
-                                  >
-                                    more
-                                  </a>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- ================= PROJECTS END ================= -->
-
-                  <div class="mag_divider piot_section">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-12 divider"></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- ================= NEWS ================= -->
-                  <!-- News Title -->
-                  <div
-                    class="piot_section_title piot_section mag-fade-left"
-                    style="padding-top: 25px"
-                  >
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <div class="smart-textarea">
-                            <h2 id="news" class="text-cap text-uppercase mb-4">
-                              News
-                            </h2>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- News Content -->
-                  <div class="mag_news_preview piot_section">
-                    <div class="container">
-                      <div class="row">
-
-                        <div class="col-lg-4 mag-fade-up">
-                          <div class="news-item">
-                            <a
-                              href="./news/news-5.html"
-                              class="cover-link d-block d-lg-none"
-                            ></a>
-                            <span class="text-cap text-uppercase"
-                              >2022.12.25</span
-                            >
-                            <h4 class="mt-1">
-                              주식회사 파이엇-스트락스 MOU 체결
-                            </h4>
-                            <div class="excerpt mt-2">
-                              <p class="news-text">
-                                주식회사 파이엇(PIOT)과 스트락스(STRX)는 파이엇 본사에서 인공지능 로봇과 IoT 기술을 적용한 스마트 빌딩 및 홈 솔루션 공급 사업 협업을 위한 업무협약(MOU)을 체결
-                                <a
-                                  class="news-read-more-link"
-                                  href="./news/news-5.html"
-                                >
+                <div class="mag_kacheln piot_section piotgreybg" style="padding-top: 25px; padding-bottom: 100px">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6 col-sm-12 col-xs-12 mag-fade-up">
+                        <div class="mb-1 mb-xl-0 cases card border-0 text-white text-center cases_2">
+                          <img src="./assets/images/products-left.jpg" alt="1600x1600"
+                            class="card-img mg-fluid img-thumbnail card-1" />
+                          <div class="justify-content-center">
+                            <div class="card-img-overlay d-flex align-items-center text-white h-100">
+                              <div class="w-100 py-5">
+                                <h6 class="card-text text-heading text-cap text-white">
+                                  Delivery Robots
+                                </h6>
+                                <h2 class="card-title text-headline text-white text-h2 fw-bold">
+                                  SENDY
+                                </h2>
+                                <a href="./products/products.html"
+                                  class="mag_button text-center bg-white text-black mag_button__outline mag_button__arrow mag_button_ondark mt-3 border-white">
                                   more
                                 </a>
-                              </p>
+                              </div>
                             </div>
                           </div>
                         </div>
+                      </div>
 
-                        <div class="col-lg-4 mag-fade-up">
-                          <div class="news-item">
-                            <a
-                              href="./news/news-4.html"
-                              class="cover-link d-block d-lg-none"
-                            ></a>
-                            <span class="text-cap text-uppercase"
-                              >2022.12.01</span
-                            >
-                            <h4 class="mt-1">
-                              주식회사 PIOT에서 SLAM/ROS 개발자 모집
-                            </h4>
-                            <div class="excerpt mt-2">
-                              <p class="news-text">
-                                글로벌 서비스 로봇 솔루션 기업 파이엇에서 SLAM/ROS 개발자를 모집합니다. 자세한 사항은 more 버튼을 눌러 확인해주세요.
-                                <a
-                                  class="news-read-more-link"
-                                  href="./news/news-4.html"
-                                >
+                      <div class="col-lg-6 col-sm-12 col-xs-12 mag-fade-up">
+                        <div class="mb-1 mb-xl-0 cases card border-0 text-white text-center cases_2">
+                          <img src="./assets/images/products-right.jpg" alt="1600x1600"
+                            class="card-img mg-fluid img-thumbnail" />
+                          <div class="justify-content-center">
+                            <div class="card-img-overlay d-flex align-items-center text-white h-100">
+                              <div class="w-100 py-5">
+                                <h6 class="card-text text-heading text-cap text-white">
+                                  Disinfection Robots
+                                </h6>
+                                <h2 class="card-title text-headline text-white text-h2 fw-bold">
+                                  STERLA
+                                </h2>
+                                <a href="./products/products.html"
+                                  class="mag_button text-center bg-white text-black mag_button__outline mag_button__arrow mag_button_ondark mt-3 border-white">
                                   more
                                 </a>
-                              </p>
+                              </div>
                             </div>
                           </div>
                         </div>
-
-                        <div class="col-lg-4 mag-fade-up">
-                          <div class="news-item">
-                            <a
-                              href="./news/news-3.html"
-                              class="cover-link d-block d-lg-none"
-                            ></a>
-                            <span class="text-cap text-uppercase"
-                              >2022.06.28</span
-                            >
-                            <h4 class="mt-1">
-                              파이엇, ‘S20 KOREA송크란뮤직페스티벌’ 공동 주최, 기부캠페인 나서
-                            </h4>
-                            <div class="excerpt mt-2">
-                              <p class="news-text">
-                                글로벌 서비스 로봇 솔루션 기업인 주식회사 파이엇은 세계 최대 규모의 워터 페스티벌인 송크란 뮤직 페스티벌을 오는 7월 9일(토)과 10일(일) 이틀 간 과천 서울랜드에서 BEPC탄젠트와 공동 주최
-                                <a
-                                  class="news-read-more-link"
-                                  href="./news/news-3.html"
-                                >
-                                  more
-                                </a>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div class="col-lg-4 mag-fade-up">
-                          <div class="news-item">
-                            <a
-                              href="./news/news-1.html"
-                              class="cover-link d-block d-lg-none"
-                            ></a>
-                            <span class="text-cap text-uppercase"
-                              >2022.03.30</span
-                            >
-                            <h4 class="mt-1">
-                              파이엇 자율주행 서비스 로봇에 아이탑스 라이다
-                              탑재한다
-                            </h4>
-
-                            <div class="excerpt mt-2">
-                              <p class="news-text">
-                                국산 라이더 기술이 적용된 파이엇 로봇을 통해
-                                국내외 로봇 시장의 주도권을 확보할 계획이며
-                                양사가 앞으로 서비스 로봇 시장의 대중화를 위해
-                                장기적인 협력 관계를 구축할 것
-                                <a
-                                  class="news-read-more-link"
-                                  href="./news/news-1.html"
-                                >
-                                  more
-                                </a>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col-lg-4 mag-fade-up">
-                          <div class="news-item">
-                            <a
-                              href="./news/news-2.html"
-                              class="cover-link d-block d-lg-none"
-                            ></a>
-                            <span class="text-cap text-uppercase"
-                              >2021.11.08</span
-                            >
-                            <h4 class="mt-1">
-                              파이엇 차이나, 中 달루로보테크와 합자공장설립 협약
-                              체결
-                            </h4>
-                            <div class="excerpt mt-2">
-                              <p class="news-text">
-                                주식회사 파이엇(PIOT)이 자회사인 파이엇
-                                차이나(이하 파이엇CN)가 중국 달루로보테크(이하
-                                달루로봇)와 서비스 로봇 생산을 위한 합자 공장을
-                                중국에 설립예정
-                                <a
-                                  class="news-read-more-link"
-                                  href="./news/news-2.html"
-                                >
-                                  more ›
-                                </a>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-
-                        
                       </div>
                     </div>
                   </div>
-                  <!-- ================= NEWS END ================= -->
-                  <!-- Two Buttons -->
-                  <div class="mag_buttons piot_section mag-fade-up">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div
-                            class="buttons-list d-flex flex-wrap flex-md-nowrap justify-content-center"
-                          >
-                            <a
-                              class="mag_button mag_button__outline mag_button__arrow mag_button_ondark mb-2 mb-md-0"
-                              href="./news/news.html"
-                            >
-                              MORE
+                </div>
+                <!-- ================= PRODUCTS END ================= -->
+
+                <!-- ================= REFERENCES ================= -->
+                <!-- Reference Title -->
+                <div class="piot_section_title piot_section pb-5">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="smart-textarea">
+                          <h2 id="references" class="text-cap text-uppercase mb-4 mag-fade-left">
+                            References
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Reference Content -->
+                <div class="mag_clients piot_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-10 offset-md-1 mag-fade-up">
+                        <div class="row align-items-center">
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/LG.png" alt="LG Logo" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/doosan.png" alt="Doosan Logo" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/KT.png" alt="KT Logo" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/autoever.png" alt="Autoever Logo" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/kcc.png" alt="KCC Logo" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/aptner.png" alt="Aptner Logo" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/severance.png" alt="Severance Hospital Logo" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/deepblue.png" alt="" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/sria.png" alt="" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/changhong.png" alt="" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-3 mt-3">
+                            <img src="./assets/logo/imria.png" alt="" />
+                          </div>
+                          <div class="col-md-4 col-lg-2 client_logo text-center mb-2 mt-2">
+                            <img src="./assets/logo/spiritant.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- ================= REFERENCES END ================= -->
+
+
+                <!-- ================= BRAND FILM================= -->
+                <!-- Brand Film Title -->
+                <div class="piot_section_title piot_section pb-5">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="smart-textarea">
+                          <h2 id="references" class="text-cap text-uppercase mb-4 mag-fade-left">
+                            BRAND FILM
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Brand Film Content -->
+                <div class="piot_section py-5">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="video-frame text-center">
+                          <video autoplay loop muted controls>
+                            <source src="./assets/videos/piot_brand_film.mp4" type="video/mp4" />
+                          </video>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ================= PROJECTS ================= -->
+                <!-- Projects Title -->
+                <div class="piot_section_title piot_section mag-fade-left">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="smart-textarea">
+                          <h2 id="projects" class="text-cap text-uppercase mb-4">
+                            Projects
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Projects Content -->
+                <div class="mag_kacheln piot_section" style="padding-top: 25px">
+                  <div class="container">
+                    <div class="row">
+                      <!-- First Project -->
+                      <div class="col-lg-6 col-sm-12 col-xs-12 mag-fade-up">
+                        <div class="mb-4 cases card border-0 text-white text-center cases_2">
+                          <img src="./assets/images/donation_campaign.jpg" alt="donation_campaign"
+                            class="card-img mg-fluid img-thumbnail" />
+                          <div class="justify-content-center">
+                            <div class="card-img-overlay d-flex align-items-center text-white h-100">
+                              <div class="w-100 py-10">
+                                <h2 class="card-title text-headline text-white text-h2 fw-bold two-lineheight">
+                                  LG CLOi UV-C Bot <br>Donation Campaign
+                                </h2>
+                                <div class="text-white two-lines"></div>
+                                <a href="./projects/lg-cloi-donation.html"
+                                  class="mag_button mag_button__outline mag_button__arrow mag_button_ondark text-center">
+                                  more
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Second Project -->
+                      <div class="col-lg-6 col-sm-12 col-xs-12 mag-fade-up">
+                        <div class="mb-4 cases card border-0 text-white text-center cases_2">
+                          <img src="./assets/images/uvc-right.jpg" alt="1600x520"
+                            class="card-img mg-fluid img-thumbnail" />
+                          <div class="justify-content-center">
+                            <div class="card-img-overlay d-flex align-items-center text-white h-100">
+                              <div class="w-100 py-10">
+                                <h2 class="card-title mb-2 text-headline text-white text-h2 fw-bold">
+                                  LG CLOi GuideBot
+                                </h2>
+                                <div class="text-white mb-3"></div>
+                                <a href="./projects/lg-cloi-guide.html"
+                                  class="mag_button mag_button__outline mag_button__arrow mag_button_ondark text-center">
+                                  more
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Third Project -->
+                      <div class="col-lg-6 col-sm-12 col-xs-12 mag-fade-up">
+                        <div class="mb-4 cases card border-0 text-white text-center cases_2">
+                          <img src="./assets/images/해밀중학교.jpg" alt="692x389" class="card-img mg-fluid img-thumbnail" />
+                          <div class="justify-content-center">
+                            <div class="card-img-overlay d-flex align-items-center text-white h-100">
+                              <div class="w-100 py-10">
+                                <h2 class="card-title mb-2 text-headline text-white text-h2 fw-bold">
+                                  LG CLOi UV-C Bot POC
+                                </h2>
+                                <div class="text-white mb-3"></div>
+                                <a href="./projects/lg-cloi-uvc.html"
+                                  class="mag_button mag_button__outline mag_button__arrow mag_button_ondark text-center">
+                                  more
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- ================= PROJECTS END ================= -->
+
+                <div class="mag_divider piot_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12 divider"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ================= NEWS ================= -->
+                <!-- News Title -->
+                <div class="piot_section_title piot_section mag-fade-left" style="padding-top: 25px">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="smart-textarea">
+                          <h2 id="news" class="text-cap text-uppercase mb-4">
+                            News
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- News Content -->
+                <div class="mag_news_preview piot_section">
+                  <div class="container">
+                    <div class="row">
+
+                      <div class="col-lg-4 mag-fade-up">
+                        <div class="news-item">
+                          <a href="./news/news-5.html" class="cover-link d-block d-lg-none"></a>
+                          <span class="text-cap text-uppercase">2022.12.25</span>
+                          <h4 class="mt-1">
+                            주식회사 파이엇-스트락스 MOU 체결
+                          </h4>
+                          <div class="excerpt mt-2">
+                            <p class="news-text">
+                              주식회사 파이엇(PIOT)과 스트락스(STRX)는 파이엇 본사에서 인공지능 로봇과 IoT 기술을 적용한 스마트 빌딩 및 홈 솔루션 공급 사업 협업을 위한
+                              업무협약(MOU)을 체결
+                              <a class="news-read-more-link" href="./news/news-5.html">
+                                more
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 mag-fade-up">
+                        <div class="news-item">
+                          <a href="./news/news-4.html" class="cover-link d-block d-lg-none"></a>
+                          <span class="text-cap text-uppercase">2022.12.01</span>
+                          <h4 class="mt-1">
+                            주식회사 PIOT에서 SLAM/ROS 개발자 모집
+                          </h4>
+                          <div class="excerpt mt-2">
+                            <p class="news-text">
+                              글로벌 서비스 로봇 솔루션 기업 파이엇에서 SLAM/ROS 개발자를 모집합니다. 자세한 사항은 more 버튼을 눌러 확인해주세요.
+                              <a class="news-read-more-link" href="./news/news-4.html">
+                                more
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 mag-fade-up">
+                        <div class="news-item">
+                          <a href="./news/news-3.html" class="cover-link d-block d-lg-none"></a>
+                          <span class="text-cap text-uppercase">2022.06.28</span>
+                          <h4 class="mt-1">
+                            파이엇, ‘S20 KOREA송크란뮤직페스티벌’ 공동 주최, 기부캠페인 나서
+                          </h4>
+                          <div class="excerpt mt-2">
+                            <p class="news-text">
+                              글로벌 서비스 로봇 솔루션 기업인 주식회사 파이엇은 세계 최대 규모의 워터 페스티벌인 송크란 뮤직 페스티벌을 오는 7월 9일(토)과 10일(일) 이틀 간 과천
+                              서울랜드에서 BEPC탄젠트와 공동 주최
+                              <a class="news-read-more-link" href="./news/news-3.html">
+                                more
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 mag-fade-up">
+                        <div class="news-item">
+                          <a href="./news/news-1.html" class="cover-link d-block d-lg-none"></a>
+                          <span class="text-cap text-uppercase">2022.03.30</span>
+                          <h4 class="mt-1">
+                            파이엇 자율주행 서비스 로봇에 아이탑스 라이다
+                            탑재한다
+                          </h4>
+
+                          <div class="excerpt mt-2">
+                            <p class="news-text">
+                              국산 라이더 기술이 적용된 파이엇 로봇을 통해
+                              국내외 로봇 시장의 주도권을 확보할 계획이며
+                              양사가 앞으로 서비스 로봇 시장의 대중화를 위해
+                              장기적인 협력 관계를 구축할 것
+                              <a class="news-read-more-link" href="./news/news-1.html">
+                                more
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 mag-fade-up">
+                        <div class="news-item">
+                          <a href="./news/news-2.html" class="cover-link d-block d-lg-none"></a>
+                          <span class="text-cap text-uppercase">2021.11.08</span>
+                          <h4 class="mt-1">
+                            파이엇 차이나, 中 달루로보테크와 합자공장설립 협약
+                            체결
+                          </h4>
+                          <div class="excerpt mt-2">
+                            <p class="news-text">
+                              주식회사 파이엇(PIOT)이 자회사인 파이엇
+                              차이나(이하 파이엇CN)가 중국 달루로보테크(이하
+                              달루로봇)와 서비스 로봇 생산을 위한 합자 공장을
+                              중국에 설립예정
+                              <a class="news-read-more-link" href="./news/news-2.html">
+                                more ›
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <!-- ================= NEWS END ================= -->
+                <!-- Two Buttons -->
+                <div class="mag_buttons piot_section mag-fade-up">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="buttons-list d-flex flex-wrap flex-md-nowrap justify-content-center">
+                          <a class="mag_button mag_button__outline mag_button__arrow mag_button_ondark mb-2 mb-md-0"
+                            href="./news/news.html">
+                            MORE
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- ================= EVENTS END ================= -->
+
+                <!-- ================= APPLY ================= -->
+                <div class="mag_bewerben mag_bewerben--grey piot_section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-6 p-md-0 pt-md-5 pb-md-5 mag-fade-up">
+                        <div class="textblock pb-5 pb-md-0 offset-lg-2">
+                          <h2 class="text-h2 mb-2 mb-md-4 font-weight-normal mt-3 mt-lg-0">
+                            Career
+                          </h2>
+                          <div class="text-h5 mb-2 mb-md-4">
+                            <p class="">
+                              파이엇은 수시 채용을 통해 인재를 채용하고
+                              있습니다. <br />
+                              국문 또는 영문 이력서를 포함한 이메일 지원서를
+                              부탁드립니다.
+                            </p>
+                          </div>
+                          <div class="bewerben-button">
+                            <a class="mag_button mag_button__filled text-uppercase" href="./contact.html">
+                              Apply now
                             </a>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                  <!-- ================= EVENTS END ================= -->
 
-                  <!-- ================= APPLY ================= -->
-                  <div class="mag_bewerben mag_bewerben--grey piot_section">
-                    <div class="container">
-                      <div class="row">
-                        <div
-                          class="col-lg-6 p-md-0 pt-md-5 pb-md-5 mag-fade-up"
-                        >
-                          <div class="textblock pb-5 pb-md-0 offset-lg-2">
-                            <h2
-                              class="text-h2 mb-2 mb-md-4 font-weight-normal mt-3 mt-lg-0"
-                            >
-                              Career
-                            </h2>
-                            <div class="text-h5 mb-2 mb-md-4">
-                              <p class="">
-                                파이엇은 수시 채용을 통해 인재를 채용하고
-                                있습니다. <br />
-                                국문 또는 영문 이력서를 포함한 이메일 지원서를
-                                부탁드립니다.
-                              </p>
-                            </div>
-                            <div class="bewerben-button">
-                              <a
-                                class="mag_button mag_button__filled text-uppercase"
-                                href="./contact.html"
-                              >
-                                Apply now
-                              </a>
-                            </div>
-                          </div>
+                      <div class="col-lg-6 p-md-0 mag-fade-up">
+                        <div class="image-container">
+                          <img src="./assets/images/apply.jpg" class="img-fluid h-100" />
                         </div>
-
-                        <div class="col-lg-6 p-md-0 mag-fade-up">
-                          <div class="image-container">
-                            <img
-                              src="./assets/images/apply.jpg"
-                              class="img-fluid h-100"
-                            />
-                          </div>
-                          <!-- <div class="video-play-button">
+                        <!-- <div class="video-play-button">
 													<span></span>
 												</div> -->
-                        </div>
                       </div>
                     </div>
                   </div>
-                  <!-- ================= APPLY END ================= -->
                 </div>
-                <!-- .entry-content -->
-              </article>
-              <!-- #post-## -->
-            </main>
-            <!-- #main -->
-          </div>
-          <!-- #primary -->
-        </div>
-        <!-- Container end -->
-      </div>
-      <!-- Wrapper end -->
-
-      <!-- ================= FOOTER AREA ================= -->
-      <div class="wrapper" id="wrapper-footer">
-        <footer class="site-footer" id="colophon">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 align-self-end mt-3 mag-fade-up">
-                <div class="menu-footer-englisch-container no-gutters">
-                  <p class="m-0 footer-lh">PIOT Inc. | CEO: Sang Hyun Lee</p>
-                  <p class="m-0 footer-lh">
-                    Address: 5F, 730, Yeongdong-daero, Gangnam-gu, Seoul,
-                    Republic of Korea
-                  </p>
-                    <p class="m-0 footer-lh">Email: Help@piot.co.kr</p>
-                  <p class="m-0 footer-lh">ⓒ 2023 PIOT. All Rights Reserved</p>
-                  <a href="https://www.instagram.com/official.piot/">
-                    <img class="footer-logo mt-2" src="./assets/logo/instagram.png" alt="instagram">
-                  </a>
-                  <a href="#none">
-                    <img class="footer-logo mt-2 mx-1" src="./assets/logo/youtube.png" alt="youtube">
-                  </a>
-                  <a href="#none">
-                    <img class="footer-logo mt-2" src="./assets/logo/facebook.png" alt="facebook">
-                  </a>
-                  
-                </div>
+                <!-- ================= APPLY END ================= -->
               </div>
+              <!-- .entry-content -->
+            </article>
+            <!-- #post-## -->
+          </main>
+          <!-- #main -->
+        </div>
+        <!-- #primary -->
+      </div>
+      <!-- Container end -->
+    </div>
+    <!-- Wrapper end -->
 
-              <div
-                class="col-12 text-right d-flex justify-content-end align-items-end mt-3 mb-5 mag-fade-up"
-              >
-                <a href="index.html">
-                  <img
-                    class="footer-logo"
-                    src="./assets/logo/piot_logo_white.svg"
-                    alt="Piot"
-                  />
+    <!-- ================= FOOTER AREA ================= -->
+    <div class="wrapper" id="wrapper-footer">
+      <footer class="site-footer" id="colophon">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 align-self-end mt-3 mag-fade-up">
+              <div class="menu-footer-englisch-container no-gutters">
+                <p class="m-0 footer-lh">PIOT Inc. | CEO: Seo Youngwoo</p>
+                <p class="m-0 footer-lh">
+                  Address: 5F, 730, Yeongdong-daero, Gangnam-gu, Seoul,
+                  Republic of Korea
+                </p>
+                <p class="m-0 footer-lh">Email: Help@piot.co.kr</p>
+                <p class="m-0 footer-lh">ⓒ 2023 PIOT. All Rights Reserved</p>
+                <a href="https://www.instagram.com/official.piot/">
+                  <img class="footer-logo mt-2" src="./assets/logo/instagram.png" alt="instagram">
                 </a>
+                <a href="#none">
+                  <img class="footer-logo mt-2 mx-1" src="./assets/logo/youtube.png" alt="youtube">
+                </a>
+                <a href="#none">
+                  <img class="footer-logo mt-2" src="./assets/logo/facebook.png" alt="facebook">
+                </a>
+
               </div>
             </div>
+
+            <div class="col-12 text-right d-flex justify-content-end align-items-end mt-3 mb-5 mag-fade-up">
+              <a href="index.html">
+                <img class="footer-logo" src="./assets/logo/piot_logo_white.svg" alt="Piot" />
+              </a>
+            </div>
           </div>
-        </footer>
-      </div>
-      <!-- wrapper end -->
+        </div>
+      </footer>
     </div>
-    <!-- #page we need this extra closing tag here -->
+    <!-- wrapper end -->
+  </div>
+  <!-- #page we need this extra closing tag here -->
 
-    <!-- Bootstrap JS Bundle -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Font-aweseome JS -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
-      integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- Font-aweseome JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+    integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script type="text/javascript" id="megamenu-js-extra">
-      /* <![CDATA[ */
-      var megamenu = {
-        timeout: '300',
-        interval: '100',
-      };
-      /* ]]> */
-    </script>
-    <script defer="" src="./assets/scripts/index.js"></script>
-    <script src="./assets/scripts/custom.js"></script>
-  </body>
+  <script type="text/javascript" id="megamenu-js-extra">
+    /* <![CDATA[ */
+    var megamenu = {
+      timeout: '300',
+      interval: '100',
+    };
+    /* ]]> */
+  </script>
+  <script defer="" src="./assets/scripts/index.js"></script>
+  <script src="./assets/scripts/custom.js"></script>
+</body>
+
 </html>
